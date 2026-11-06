@@ -1,4 +1,4 @@
-import { loadRfx } from "./extraction";
+import { loadRfx } from "./rfx-load";
 import { RfxSchema } from "./rfx-schema";
 import type { Rfx } from "./rfx-types";
 

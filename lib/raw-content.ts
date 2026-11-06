@@ -1,7 +1,6 @@
 import path from "node:path";
 import ExcelJS from "exceljs";
 import mammoth from "mammoth";
-import { PDFParse } from "pdf-parse";
 
 export type ImageMediaType = "image/png" | "image/jpeg" | "image/webp" | "image/gif";
 
@@ -43,6 +42,8 @@ async function readXlsx(data: Buffer): Promise<string> {
 }
 
 async function readPdf(data: Buffer): Promise<Pick<RawContent, "text" | "pdfBase64" | "imageOnlyPages">> {
+  // pdf-parse pulls in pdfjs-dist, which needs browser globals at load time; only load it when a PDF is parsed.
+  const { PDFParse } = await import("pdf-parse");
   const parser = new PDFParse({ data: new Uint8Array(data) });
   try {
     const result = await parser.getText();

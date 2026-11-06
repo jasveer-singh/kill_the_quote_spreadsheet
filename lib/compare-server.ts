@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { ExtractedVendorQuote } from "./extraction-types";
-import { loadRfx } from "./extraction";
+import { loadRfx } from "./rfx-load";
 import { resolveRfx } from "./rfx-resolve";
 import type { Rfx } from "./rfx-types";
 
@@ -13,10 +13,13 @@ export interface ComparisonPayload {
   vendors: ExtractedVendorQuote[];
 }
 
-export function loadExtractedVendors(dir = path.join(process.cwd(), "data", "extracted")): ExtractedVendorQuote[] {
-  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort() : [];
+// statically scoped to data/extracted so the deploy trace stays small
+const EXTRACTED_DIR = path.join(process.cwd(), "data", "extracted");
+
+export function loadExtractedVendors(): ExtractedVendorQuote[] {
+  const files = fs.existsSync(EXTRACTED_DIR) ? fs.readdirSync(EXTRACTED_DIR).filter((f) => f.endsWith(".json")).sort() : [];
   if (!files.length) throw new Error("No extracted vendor files found in data/extracted/. Run `npm run extract` first.");
-  return files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as ExtractedVendorQuote);
+  return files.map((f) => JSON.parse(fs.readFileSync(path.join(EXTRACTED_DIR, f), "utf8")) as ExtractedVendorQuote);
 }
 
 /**

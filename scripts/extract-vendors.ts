@@ -5,7 +5,8 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { extractVendorQuote, loadRfx } from "../lib/extraction";
+import { extractVendorQuote } from "../lib/extraction";
+import { loadRfx } from "../lib/rfx-load";
 
 const ROOT = path.resolve(__dirname, "..");
 const IN = path.join(ROOT, "data", "vendor-responses");

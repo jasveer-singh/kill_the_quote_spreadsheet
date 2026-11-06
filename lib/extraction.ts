@@ -1,4 +1,3 @@
-import fs from "node:fs";
 import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
@@ -140,11 +139,6 @@ export interface ExtractionOptions {
   fxRatesToINR?: Record<string, number>;
   /** Used for vendorId in the result; defaults to the file name without extension. */
   vendorId?: string;
-}
-
-/** Reads data/rfx.json, the RFx written by scripts/generate-dataset.ts. */
-export function loadRfx(file = path.join(process.cwd(), "data", "rfx.json")): Rfx {
-  return JSON.parse(fs.readFileSync(file, "utf8")) as Rfx;
 }
 
 /** Extracts and normalizes one vendor's quote. Makes a live Claude API call. */
