@@ -240,7 +240,7 @@ function assemble(
     const currency = verifiedField(m.currency, raw);
 
     const priced = m.status === "quoted" && unitPrice.value !== null;
-    let status: ExtractedLine["status"] = priced ? "quoted" : "missing";
+    const status: ExtractedLine["status"] = priced ? "quoted" : "missing";
     if (m.status === "quoted" && !priced) addEngine("missing_line", "Marked quoted but no unit price was extracted.");
     if (status === "missing") addEngine("missing_line", "Vendor gave no price for this line.");
 
