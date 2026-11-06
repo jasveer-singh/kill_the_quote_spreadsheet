@@ -1,0 +1,220 @@
+{
+  "rfxId": "RFX-2026-0417",
+  "title": "Supply of IT Hardware & Peripherals - FY26-27 Refresh",
+  "buyer": "Meridian Logistics Pvt. Ltd.",
+  "issuedOn": "2026-10-12",
+  "responseDueBy": "2026-10-26",
+  "deliveryLocation": "Pune, Maharashtra (single consignee)",
+  "items": [
+    {
+      "itemCode": "LAP-001",
+      "description": "Business Laptop 14\"",
+      "spec": "Intel Core i5-1335U, 16GB DDR5, 512GB NVMe SSD, Windows 11 Pro, 3-yr on-site warranty",
+      "quantity": 120,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "LAP-002",
+      "description": "Business Laptop 15.6\"",
+      "spec": "Intel Core i7-1355U, 32GB DDR5, 1TB NVMe SSD, Windows 11 Pro, 3-yr on-site warranty",
+      "quantity": 40,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "LAP-003",
+      "description": "Mobile Workstation 16\"",
+      "spec": "AMD Ryzen 9 7940HS, 64GB DDR5, 2TB SSD, NVIDIA RTX A2000 8GB, Windows 11 Pro",
+      "quantity": 10,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "LAP-004",
+      "description": "Ultraportable Laptop 13.3\"",
+      "spec": "Intel Core i5-1340P, 16GB LPDDR5, 512GB SSD, 1.2kg, Windows 11 Pro",
+      "quantity": 60,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "DSK-001",
+      "description": "Mini Desktop PC",
+      "spec": "Intel Core i5-13500T, 16GB DDR4, 512GB SSD, Wi-Fi 6, VESA mount, Windows 11 Pro",
+      "quantity": 50,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MON-001",
+      "description": "Monitor 24\" FHD",
+      "spec": "24-inch IPS, 1920x1080, 75Hz, HDMI + DisplayPort, height-adjustable stand",
+      "quantity": 150,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MON-002",
+      "description": "Monitor 27\" QHD",
+      "spec": "27-inch IPS, 2560x1440, 75Hz, HDMI + DP + USB hub, height-adjustable",
+      "quantity": 80,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MON-003",
+      "description": "Monitor 32\" 4K USB-C",
+      "spec": "32-inch IPS, 3840x2160, USB-C 90W PD, KVM, HDR400",
+      "quantity": 25,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MON-004",
+      "description": "Monitor 34\" Ultrawide",
+      "spec": "34-inch curved VA, 3440x1440, 100Hz, HDMI + DP + USB-C",
+      "quantity": 15,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "DOC-001",
+      "description": "USB-C Docking Station 65W",
+      "spec": "USB-C, dual 4K HDMI, 3x USB-A, RJ45 GbE, 65W pass-through charging",
+      "quantity": 100,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "DOC-002",
+      "description": "Thunderbolt 4 Docking Station",
+      "spec": "TB4, 96W charging, dual 4K60 DP, 4x USB-A, SD reader, 2.5GbE",
+      "quantity": 40,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "DOC-003",
+      "description": "Universal USB 3.0 Dual-Display Dock",
+      "spec": "DisplayLink, 2x HDMI, 4x USB 3.0, GbE, audio in/out",
+      "quantity": 30,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "KEY-001",
+      "description": "Wired USB Keyboard",
+      "spec": "Full-size, membrane, spill-resistant, UK/US layout, USB-A",
+      "quantity": 200,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "KEY-002",
+      "description": "Wireless Keyboard + Mouse Combo",
+      "spec": "2.4GHz USB receiver, low-profile keys, 12-month battery life",
+      "quantity": 150,
+      "unit": "Set"
+    },
+    {
+      "itemCode": "KEY-003",
+      "description": "Mechanical Keyboard",
+      "spec": "TKL, hot-swappable red switches, USB-C detachable cable, backlit",
+      "quantity": 20,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MOU-001",
+      "description": "Wired Optical Mouse",
+      "spec": "USB-A, 1000 DPI, 3 buttons, 1.5m cable",
+      "quantity": 200,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MOU-002",
+      "description": "Wireless Ergonomic Mouse",
+      "spec": "Vertical grip, 2.4GHz + Bluetooth, 4000 DPI, rechargeable",
+      "quantity": 100,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "MOU-003",
+      "description": "Bluetooth Travel Mouse",
+      "spec": "Compact, silent click, Bluetooth 5.0, AA battery",
+      "quantity": 60,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "CAB-001",
+      "description": "HDMI Cable 2m",
+      "spec": "HDMI 2.0, 4K60, gold-plated connectors, braided",
+      "quantity": 250,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "CAB-002",
+      "description": "DisplayPort Cable 2m",
+      "spec": "DisplayPort 1.4, 8K30 / 4K144, latching connector",
+      "quantity": 150,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "CAB-003",
+      "description": "USB-C to USB-C Cable 1m",
+      "spec": "USB 3.2 Gen2, 100W PD, 10Gbps, e-marked",
+      "quantity": 300,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "CAB-004",
+      "description": "Cat6 Patch Cable 3m",
+      "spec": "UTP Cat6, snagless boot, 24AWG, blue",
+      "quantity": 400,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "CAB-005",
+      "description": "USB-C to HDMI Adapter",
+      "spec": "USB-C to HDMI 2.0, 4K60, aluminium shell",
+      "quantity": 120,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "WEB-001",
+      "description": "Webcam 1080p",
+      "spec": "Full HD 1080p/30fps, autofocus, dual mic, privacy shutter, USB-A",
+      "quantity": 100,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "WEB-002",
+      "description": "4K Conference Webcam",
+      "spec": "4K/30fps, 90-degree FOV, AI auto-framing, dual noise-cancelling mics, USB-C",
+      "quantity": 20,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "HDS-001",
+      "description": "USB Wired Headset with Mic",
+      "spec": "Over-ear, noise-cancelling boom mic, inline controls, USB-A, MS Teams certified",
+      "quantity": 150,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "HDS-002",
+      "description": "Wireless ANC Headset",
+      "spec": "Bluetooth 5.2, active noise cancelling, 30h battery, USB dongle, Teams certified",
+      "quantity": 40,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "BAG-001",
+      "description": "Laptop Backpack 15.6\"",
+      "spec": "Water-resistant, padded laptop compartment, anti-theft pocket",
+      "quantity": 120,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "PWR-001",
+      "description": "Universal 65W USB-C Charger",
+      "spec": "GaN, 65W PD 3.0, foldable pins, 1.8m cable included",
+      "quantity": 80,
+      "unit": "Nos"
+    },
+    {
+      "itemCode": "STN-001",
+      "description": "Aluminium Laptop Stand",
+      "spec": "Adjustable height/angle, foldable, fits 11-17 inch laptops",
+      "quantity": 90,
+      "unit": "Nos"
+    }
+  ]
+}

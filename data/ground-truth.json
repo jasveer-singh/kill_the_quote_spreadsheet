@@ -1,0 +1,1380 @@
+{
+  "generatedFrom": "RFX-2026-0417",
+  "fxRateInrPerUsd": 83,
+  "vendors": [
+    {
+      "vendorId": "vendor-a",
+      "vendorName": "Nexa Tech Supplies",
+      "file": "vendor-responses/vendor-a.xlsx",
+      "currency": "INR",
+      "flaws": [
+        "Own column layout (not RFx template); rows reordered by category; GST column"
+      ],
+      "hiddenDiscount": 0,
+      "lines": [
+        {
+          "itemCode": "BAG-001",
+          "quotedUnitPriceINR": 1450,
+          "statedValue": 1450,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1450
+        },
+        {
+          "itemCode": "CAB-001",
+          "quotedUnitPriceINR": 370,
+          "statedValue": 370,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 370
+        },
+        {
+          "itemCode": "CAB-002",
+          "quotedUnitPriceINR": 630,
+          "statedValue": 630,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 630
+        },
+        {
+          "itemCode": "CAB-003",
+          "quotedUnitPriceINR": 535,
+          "statedValue": 535,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 535
+        },
+        {
+          "itemCode": "CAB-004",
+          "quotedUnitPriceINR": 175,
+          "statedValue": 175,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 175
+        },
+        {
+          "itemCode": "CAB-005",
+          "quotedUnitPriceINR": 850,
+          "statedValue": 850,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 850
+        },
+        {
+          "itemCode": "DOC-001",
+          "quotedUnitPriceINR": 7250,
+          "statedValue": 7250,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 7250
+        },
+        {
+          "itemCode": "DOC-002",
+          "quotedUnitPriceINR": 18600,
+          "statedValue": 18600,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 18600
+        },
+        {
+          "itemCode": "DOC-003",
+          "quotedUnitPriceINR": 5650,
+          "statedValue": 5650,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 5650
+        },
+        {
+          "itemCode": "DSK-001",
+          "quotedUnitPriceINR": 51200,
+          "statedValue": 51200,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 51200
+        },
+        {
+          "itemCode": "HDS-001",
+          "quotedUnitPriceINR": 1900,
+          "statedValue": 1900,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1900
+        },
+        {
+          "itemCode": "HDS-002",
+          "quotedUnitPriceINR": 8950,
+          "statedValue": 8950,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 8950
+        },
+        {
+          "itemCode": "KEY-001",
+          "quotedUnitPriceINR": 660,
+          "statedValue": 660,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 660
+        },
+        {
+          "itemCode": "KEY-002",
+          "quotedUnitPriceINR": 1800,
+          "statedValue": 1800,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1800
+        },
+        {
+          "itemCode": "KEY-003",
+          "quotedUnitPriceINR": 4750,
+          "statedValue": 4750,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 4750
+        },
+        {
+          "itemCode": "LAP-001",
+          "quotedUnitPriceINR": 67300,
+          "statedValue": 67300,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 67300
+        },
+        {
+          "itemCode": "LAP-002",
+          "quotedUnitPriceINR": 100100,
+          "statedValue": 100100,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 100100
+        },
+        {
+          "itemCode": "LAP-003",
+          "quotedUnitPriceINR": 186100,
+          "statedValue": 186100,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 186100
+        },
+        {
+          "itemCode": "LAP-004",
+          "quotedUnitPriceINR": 83300,
+          "statedValue": 83300,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 83300
+        },
+        {
+          "itemCode": "MON-001",
+          "quotedUnitPriceINR": 9950,
+          "statedValue": 9950,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 9950
+        },
+        {
+          "itemCode": "MON-002",
+          "quotedUnitPriceINR": 17200,
+          "statedValue": 17200,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 17200
+        },
+        {
+          "itemCode": "MON-003",
+          "quotedUnitPriceINR": 38100,
+          "statedValue": 38100,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 38100
+        },
+        {
+          "itemCode": "MON-004",
+          "quotedUnitPriceINR": 40600,
+          "statedValue": 40600,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 40600
+        },
+        {
+          "itemCode": "MOU-001",
+          "quotedUnitPriceINR": 355,
+          "statedValue": 355,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 355
+        },
+        {
+          "itemCode": "MOU-002",
+          "quotedUnitPriceINR": 1450,
+          "statedValue": 1450,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1450
+        },
+        {
+          "itemCode": "MOU-003",
+          "quotedUnitPriceINR": 1250,
+          "statedValue": 1250,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1250
+        },
+        {
+          "itemCode": "PWR-001",
+          "quotedUnitPriceINR": 2100,
+          "statedValue": 2100,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2100
+        },
+        {
+          "itemCode": "STN-001",
+          "quotedUnitPriceINR": 1350,
+          "statedValue": 1350,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1350
+        },
+        {
+          "itemCode": "WEB-001",
+          "quotedUnitPriceINR": 2400,
+          "statedValue": 2400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2400
+        },
+        {
+          "itemCode": "WEB-002",
+          "quotedUnitPriceINR": 11600,
+          "statedValue": 11600,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 11600
+        }
+      ]
+    },
+    {
+      "vendorId": "vendor-b",
+      "vendorName": "Sundaram Infosystems Pvt. Ltd.",
+      "file": "vendor-responses/vendor-b.pdf",
+      "currency": "INR",
+      "flaws": [
+        "Only 27 of 30 lines quoted (LAP-003, WEB-002, STN-001 missing)",
+        "5% discount only in tiny footnote"
+      ],
+      "hiddenDiscount": 0.05,
+      "lines": [
+        {
+          "itemCode": "LAP-001",
+          "quotedUnitPriceINR": 71600,
+          "statedValue": 71600,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 71600,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "LAP-002",
+          "quotedUnitPriceINR": 102600,
+          "statedValue": 102600,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 102600,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "LAP-003",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 195200,
+          "note": "Line omitted from quote"
+        },
+        {
+          "itemCode": "LAP-004",
+          "quotedUnitPriceINR": 84400,
+          "statedValue": 84400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 84400,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "DSK-001",
+          "quotedUnitPriceINR": 54200,
+          "statedValue": 54200,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 54200,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MON-001",
+          "quotedUnitPriceINR": 10000,
+          "statedValue": 10000,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 10000,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MON-002",
+          "quotedUnitPriceINR": 18000,
+          "statedValue": 18000,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 18000,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MON-003",
+          "quotedUnitPriceINR": 40000,
+          "statedValue": 40000,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 40000,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MON-004",
+          "quotedUnitPriceINR": 42100,
+          "statedValue": 42100,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 42100,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "DOC-001",
+          "quotedUnitPriceINR": 7500,
+          "statedValue": 7500,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 7500,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "DOC-002",
+          "quotedUnitPriceINR": 19600,
+          "statedValue": 19600,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 19600,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "DOC-003",
+          "quotedUnitPriceINR": 5900,
+          "statedValue": 5900,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 5900,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "KEY-001",
+          "quotedUnitPriceINR": 680,
+          "statedValue": 680,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 680,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "KEY-002",
+          "quotedUnitPriceINR": 1900,
+          "statedValue": 1900,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1900,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "KEY-003",
+          "quotedUnitPriceINR": 5050,
+          "statedValue": 5050,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 5050,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MOU-001",
+          "quotedUnitPriceINR": 370,
+          "statedValue": 370,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 370,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MOU-002",
+          "quotedUnitPriceINR": 1500,
+          "statedValue": 1500,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1500,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "MOU-003",
+          "quotedUnitPriceINR": 1300,
+          "statedValue": 1300,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1300,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "CAB-001",
+          "quotedUnitPriceINR": 400,
+          "statedValue": 400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 400,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "CAB-002",
+          "quotedUnitPriceINR": 645,
+          "statedValue": 645,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 645,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "CAB-003",
+          "quotedUnitPriceINR": 560,
+          "statedValue": 560,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 560,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "CAB-004",
+          "quotedUnitPriceINR": 190,
+          "statedValue": 190,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 190,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "CAB-005",
+          "quotedUnitPriceINR": 880,
+          "statedValue": 880,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 880,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "WEB-001",
+          "quotedUnitPriceINR": 2550,
+          "statedValue": 2550,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2550,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "WEB-002",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 12100,
+          "note": "Line omitted from quote"
+        },
+        {
+          "itemCode": "HDS-001",
+          "quotedUnitPriceINR": 2000,
+          "statedValue": 2000,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2000,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "HDS-002",
+          "quotedUnitPriceINR": 9250,
+          "statedValue": 9250,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 9250,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "BAG-001",
+          "quotedUnitPriceINR": 1500,
+          "statedValue": 1500,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1500,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "PWR-001",
+          "quotedUnitPriceINR": 2150,
+          "statedValue": 2150,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2150,
+          "note": "5% footnote discount applies to whole quote"
+        },
+        {
+          "itemCode": "STN-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1400,
+          "note": "Line omitted from quote"
+        }
+      ]
+    },
+    {
+      "vendorId": "vendor-c",
+      "vendorName": "Brightwave Global Trading LLC",
+      "file": "vendor-responses/vendor-c.docx",
+      "currency": "USD",
+      "flaws": [
+        "Pricing in prose paragraphs, no table",
+        "Prices in USD"
+      ],
+      "hiddenDiscount": 0,
+      "lines": [
+        {
+          "itemCode": "LAP-001",
+          "quotedUnitPriceINR": 67300,
+          "statedValue": 810.84,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 67300,
+          "note": "USD 810.84 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "LAP-002",
+          "quotedUnitPriceINR": 97700,
+          "statedValue": 1177.11,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 97700,
+          "note": "USD 1177.11 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "LAP-003",
+          "quotedUnitPriceINR": 181600,
+          "statedValue": 2187.95,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 181600,
+          "note": "USD 2187.95 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "LAP-004",
+          "quotedUnitPriceINR": 79100,
+          "statedValue": 953.01,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 79100,
+          "note": "USD 953.01 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "DSK-001",
+          "quotedUnitPriceINR": 50600,
+          "statedValue": 609.64,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 50600,
+          "note": "USD 609.64 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MON-001",
+          "quotedUnitPriceINR": 9650,
+          "statedValue": 116.27,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 9650,
+          "note": "USD 116.27 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MON-002",
+          "quotedUnitPriceINR": 17100,
+          "statedValue": 206.02,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 17100,
+          "note": "USD 206.02 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MON-003",
+          "quotedUnitPriceINR": 37800,
+          "statedValue": 455.42,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 37800,
+          "note": "USD 455.42 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MON-004",
+          "quotedUnitPriceINR": 39900,
+          "statedValue": 480.72,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 39900,
+          "note": "USD 480.72 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "DOC-001",
+          "quotedUnitPriceINR": 6900,
+          "statedValue": 83.13,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 6900,
+          "note": "USD 83.13 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "DOC-002",
+          "quotedUnitPriceINR": 17800,
+          "statedValue": 214.46,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 17800,
+          "note": "USD 214.46 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "DOC-003",
+          "quotedUnitPriceINR": 5550,
+          "statedValue": 66.87,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 5550,
+          "note": "USD 66.87 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "KEY-001",
+          "quotedUnitPriceINR": 640,
+          "statedValue": 7.71,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 640,
+          "note": "USD 7.71 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "KEY-002",
+          "quotedUnitPriceINR": 1700,
+          "statedValue": 20.48,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 1700,
+          "note": "USD 20.48 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "KEY-003",
+          "quotedUnitPriceINR": 4650,
+          "statedValue": 56.02,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 4650,
+          "note": "USD 56.02 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MOU-001",
+          "quotedUnitPriceINR": 340,
+          "statedValue": 4.1,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 340,
+          "note": "USD 4.1 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MOU-002",
+          "quotedUnitPriceINR": 1400,
+          "statedValue": 16.87,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 1400,
+          "note": "USD 16.87 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "MOU-003",
+          "quotedUnitPriceINR": 1250,
+          "statedValue": 15.06,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 1250,
+          "note": "USD 15.06 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "CAB-001",
+          "quotedUnitPriceINR": 360,
+          "statedValue": 4.34,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 360,
+          "note": "USD 4.34 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "CAB-002",
+          "quotedUnitPriceINR": 610,
+          "statedValue": 7.35,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 610,
+          "note": "USD 7.35 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "CAB-003",
+          "quotedUnitPriceINR": 530,
+          "statedValue": 6.39,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 530,
+          "note": "USD 6.39 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "CAB-004",
+          "quotedUnitPriceINR": 170,
+          "statedValue": 2.05,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 170,
+          "note": "USD 2.05 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "CAB-005",
+          "quotedUnitPriceINR": 810,
+          "statedValue": 9.76,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 810,
+          "note": "USD 9.76 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "WEB-001",
+          "quotedUnitPriceINR": 2350,
+          "statedValue": 28.31,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 2350,
+          "note": "USD 28.31 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "WEB-002",
+          "quotedUnitPriceINR": 11100,
+          "statedValue": 133.73,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 11100,
+          "note": "USD 133.73 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "HDS-001",
+          "quotedUnitPriceINR": 1900,
+          "statedValue": 22.89,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 1900,
+          "note": "USD 22.89 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "HDS-002",
+          "quotedUnitPriceINR": 8500,
+          "statedValue": 102.41,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 8500,
+          "note": "USD 102.41 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "BAG-001",
+          "quotedUnitPriceINR": 1400,
+          "statedValue": 16.87,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 1400,
+          "note": "USD 16.87 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "PWR-001",
+          "quotedUnitPriceINR": 2000,
+          "statedValue": 24.1,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 2000,
+          "note": "USD 24.1 converted at 83 INR/USD"
+        },
+        {
+          "itemCode": "STN-001",
+          "quotedUnitPriceINR": 1300,
+          "statedValue": 15.66,
+          "statedBasis": "per_unit",
+          "currency": "USD",
+          "referenceUnitPriceINR": 1300,
+          "note": "USD 15.66 converted at 83 INR/USD"
+        }
+      ]
+    },
+    {
+      "vendorId": "vendor-d",
+      "vendorName": "Shree Ganesh Computers",
+      "file": "vendor-responses/vendor-d.png",
+      "currency": "INR",
+      "flaws": [
+        "Image of rate card, rotated ~10deg with noise/blur",
+        "Price per box of 100, not per unit"
+      ],
+      "hiddenDiscount": 0,
+      "lines": [
+        {
+          "itemCode": "LAP-001",
+          "quotedUnitPriceINR": 70800,
+          "statedValue": 7080000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 70800,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "LAP-002",
+          "quotedUnitPriceINR": 99400,
+          "statedValue": 9940000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 99400,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "LAP-003",
+          "quotedUnitPriceINR": 191400,
+          "statedValue": 19140000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 191400,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "LAP-004",
+          "quotedUnitPriceINR": 83200,
+          "statedValue": 8320000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 83200,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "DSK-001",
+          "quotedUnitPriceINR": 53300,
+          "statedValue": 5330000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 53300,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MON-001",
+          "quotedUnitPriceINR": 9900,
+          "statedValue": 990000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 9900,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MON-002",
+          "quotedUnitPriceINR": 17900,
+          "statedValue": 1790000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 17900,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MON-003",
+          "quotedUnitPriceINR": 39500,
+          "statedValue": 3950000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 39500,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MON-004",
+          "quotedUnitPriceINR": 41100,
+          "statedValue": 4110000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 41100,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "DOC-001",
+          "quotedUnitPriceINR": 7300,
+          "statedValue": 730000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 7300,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "DOC-002",
+          "quotedUnitPriceINR": 18500,
+          "statedValue": 1850000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 18500,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "DOC-003",
+          "quotedUnitPriceINR": 5650,
+          "statedValue": 565000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 5650,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "KEY-001",
+          "quotedUnitPriceINR": 675,
+          "statedValue": 67500,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 675,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "KEY-002",
+          "quotedUnitPriceINR": 1850,
+          "statedValue": 185000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1850,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "KEY-003",
+          "quotedUnitPriceINR": 4850,
+          "statedValue": 485000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 4850,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MOU-001",
+          "quotedUnitPriceINR": 355,
+          "statedValue": 35500,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 355,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MOU-002",
+          "quotedUnitPriceINR": 1450,
+          "statedValue": 145000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1450,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "MOU-003",
+          "quotedUnitPriceINR": 1250,
+          "statedValue": 125000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1250,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "CAB-001",
+          "quotedUnitPriceINR": 385,
+          "statedValue": 38500,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 385,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "CAB-002",
+          "quotedUnitPriceINR": 630,
+          "statedValue": 63000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 630,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "CAB-003",
+          "quotedUnitPriceINR": 545,
+          "statedValue": 54500,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 545,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "CAB-004",
+          "quotedUnitPriceINR": 185,
+          "statedValue": 18500,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 185,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "CAB-005",
+          "quotedUnitPriceINR": 880,
+          "statedValue": 88000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 880,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "WEB-001",
+          "quotedUnitPriceINR": 2450,
+          "statedValue": 245000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2450,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "WEB-002",
+          "quotedUnitPriceINR": 11900,
+          "statedValue": 1190000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 11900,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "HDS-001",
+          "quotedUnitPriceINR": 1950,
+          "statedValue": 195000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1950,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "HDS-002",
+          "quotedUnitPriceINR": 8950,
+          "statedValue": 895000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 8950,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "BAG-001",
+          "quotedUnitPriceINR": 1450,
+          "statedValue": 145000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1450,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "PWR-001",
+          "quotedUnitPriceINR": 2150,
+          "statedValue": 215000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2150,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        },
+        {
+          "itemCode": "STN-001",
+          "quotedUnitPriceINR": 1400,
+          "statedValue": 140000,
+          "statedBasis": "per_box_100",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1400,
+          "note": "Stated per box of 100 units; divide by 100 for unit price"
+        }
+      ]
+    },
+    {
+      "vendorId": "vendor-e",
+      "vendorName": "QuickByte Traders",
+      "file": "vendor-responses/vendor-e.txt",
+      "currency": "INR",
+      "flaws": [
+        "Terse informal email",
+        "Only 11 SKUs priced; the rest 'same as last year, freight extra'"
+      ],
+      "hiddenDiscount": 0,
+      "lines": [
+        {
+          "itemCode": "LAP-001",
+          "quotedUnitPriceINR": 70400,
+          "statedValue": 70400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 70400
+        },
+        {
+          "itemCode": "LAP-002",
+          "quotedUnitPriceINR": 101400,
+          "statedValue": 101400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 101400
+        },
+        {
+          "itemCode": "LAP-003",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 183900,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "LAP-004",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 81300,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "DSK-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 51900,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "MON-001",
+          "quotedUnitPriceINR": 9950,
+          "statedValue": 9950,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 9950
+        },
+        {
+          "itemCode": "MON-002",
+          "quotedUnitPriceINR": 17400,
+          "statedValue": 17400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 17400,
+          "note": "Stated as shorthand 'k'"
+        },
+        {
+          "itemCode": "MON-003",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 38200,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "MON-004",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 40800,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "DOC-001",
+          "quotedUnitPriceINR": 7200,
+          "statedValue": 7200,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 7200
+        },
+        {
+          "itemCode": "DOC-002",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 18900,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "DOC-003",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 5650,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "KEY-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 660,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "KEY-002",
+          "quotedUnitPriceINR": 1850,
+          "statedValue": 1850,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1850
+        },
+        {
+          "itemCode": "KEY-003",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 4900,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "MOU-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 350,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "MOU-002",
+          "quotedUnitPriceINR": 1450,
+          "statedValue": 1450,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1450
+        },
+        {
+          "itemCode": "MOU-003",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1250,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "CAB-001",
+          "quotedUnitPriceINR": 380,
+          "statedValue": 380,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 380
+        },
+        {
+          "itemCode": "CAB-002",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 615,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "CAB-003",
+          "quotedUnitPriceINR": 540,
+          "statedValue": 540,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 540
+        },
+        {
+          "itemCode": "CAB-004",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 180,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "CAB-005",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 850,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "WEB-001",
+          "quotedUnitPriceINR": 2400,
+          "statedValue": 2400,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2400
+        },
+        {
+          "itemCode": "WEB-002",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 11700,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "HDS-001",
+          "quotedUnitPriceINR": 1950,
+          "statedValue": 1950,
+          "statedBasis": "per_unit",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1950
+        },
+        {
+          "itemCode": "HDS-002",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 9000,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "BAG-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1450,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "PWR-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 2150,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        },
+        {
+          "itemCode": "STN-001",
+          "quotedUnitPriceINR": null,
+          "statedValue": null,
+          "statedBasis": "not_stated",
+          "currency": "INR",
+          "referenceUnitPriceINR": 1350,
+          "note": "Covered only by 'rest same as last year, freight extra'; no price in this message"
+        }
+      ]
+    }
+  ]
+}
