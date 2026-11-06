@@ -7,13 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:dataset": "tsx scripts/generate-dataset.ts"
+    "generate:dataset": "tsx scripts/generate-dataset.ts",
+    "extract": "tsx scripts/extract-vendors.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.6.0",
+    "exceljs": "^4.4.0",
+    "mammoth": "^1.13.0",
     "next": "16.4.5",
+    "pdf-parse": "^2.4.5",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
@@ -24,7 +29,6 @@
     "docx": "^9.15.2",
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
-    "exceljs": "^4.4.0",
     "pdfkit": "^0.20.2",
     "sharp": "^0.35.5",
     "tailwindcss": "^4",

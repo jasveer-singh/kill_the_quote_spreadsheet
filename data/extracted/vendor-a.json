@@ -1,0 +1,2156 @@
+{
+  "vendorId": "vendor-a",
+  "sourceFile": "vendor-a.xlsx",
+  "extractedAt": "2026-11-06T03:21:17.815Z",
+  "model": "claude-sonnet-5-5",
+  "rfxId": "RFX-2026-0417",
+  "baseCurrency": "INR",
+  "basePriceBasis": "per_unit",
+  "rawContent": {
+    "source": "xlsx",
+    "characters": 4702,
+    "sentAsImage": false,
+    "sentAsPdfDocument": false,
+    "imageOnlyPages": []
+  },
+  "assumptions": {
+    "fxRatesToINR": {
+      "INR": 1,
+      "USD": 83
+    }
+  },
+  "vendorName": "NEXA TECH SUPPLIES",
+  "quoteNotes": [
+    {
+      "text": "All rates are in INR and exclusive of GST (GST 18% shown per line).",
+      "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST."
+    },
+    {
+      "text": "Quote validity: 30 days.",
+      "sourceSnippet": "Validity: 30 days."
+    },
+    {
+      "text": "Delivery: 3-4 weeks ARO.",
+      "sourceSnippet": "Delivery: 3-4 weeks ARO."
+    },
+    {
+      "text": "Quoted total is Rs. 30,453,500 ex-GST.",
+      "sourceSnippet": "TOTAL (ex-GST) |  | 30453500"
+    }
+  ],
+  "discounts": [],
+  "summary": {
+    "lines": 30,
+    "quoted": 30,
+    "missing": 0,
+    "flagCounts": {
+      "unit_assumed": 30
+    }
+  },
+  "usage": {
+    "inputTokens": 8184,
+    "outputTokens": 11482
+  },
+  "lines": [
+    {
+      "itemCode": "LAP-001",
+      "rfxDescription": "Business Laptop 14\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "LAP-001 | 120 | 67300 | 18 | 8076000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 67300,
+        "confidence": "high",
+        "sourceSnippet": "LAP-001 | 120 | 67300 | 18 | 8076000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "LAP-001 | 120 | 67300 | 18 | 8076000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 67300,
+        "listUnitPriceINR": 67300,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 67300,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-002",
+      "rfxDescription": "Business Laptop 15.6\"",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "LAP-002 | 40 | 100100 | 18 | 4004000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 100100,
+        "confidence": "high",
+        "sourceSnippet": "LAP-002 | 40 | 100100 | 18 | 4004000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "LAP-002 | 40 | 100100 | 18 | 4004000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 100100,
+        "listUnitPriceINR": 100100,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 100100,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-003",
+      "rfxDescription": "Mobile Workstation 16\"",
+      "rfxQuantity": 10,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 10,
+        "confidence": "high",
+        "sourceSnippet": "LAP-003 | 10 | 186100 | 18 | 1861000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 186100,
+        "confidence": "high",
+        "sourceSnippet": "LAP-003 | 10 | 186100 | 18 | 1861000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "LAP-003 | 10 | 186100 | 18 | 1861000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 186100,
+        "listUnitPriceINR": 186100,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 186100,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-004",
+      "rfxDescription": "Ultraportable Laptop 13.3\"",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 60,
+        "confidence": "high",
+        "sourceSnippet": "LAP-004 | 60 | 83300 | 18 | 4998000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 83300,
+        "confidence": "high",
+        "sourceSnippet": "LAP-004 | 60 | 83300 | 18 | 4998000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "LAP-004 | 60 | 83300 | 18 | 4998000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 83300,
+        "listUnitPriceINR": 83300,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 83300,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DSK-001",
+      "rfxDescription": "Mini Desktop PC",
+      "rfxQuantity": 50,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 50,
+        "confidence": "high",
+        "sourceSnippet": "DSK-001 | 50 | 51200 | 18 | 2560000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 51200,
+        "confidence": "high",
+        "sourceSnippet": "DSK-001 | 50 | 51200 | 18 | 2560000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "DSK-001 | 50 | 51200 | 18 | 2560000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 51200,
+        "listUnitPriceINR": 51200,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 51200,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-001",
+      "rfxDescription": "Monitor 24\" FHD",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "MON-001 | 150 | 9950 | 18 | 1492500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 9950,
+        "confidence": "high",
+        "sourceSnippet": "MON-001 | 150 | 9950 | 18 | 1492500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MON-001 | 150 | 9950 | 18 | 1492500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 9950,
+        "listUnitPriceINR": 9950,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 9950,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-002",
+      "rfxDescription": "Monitor 27\" QHD",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 80,
+        "confidence": "high",
+        "sourceSnippet": "MON-002 | 80 | 17200 | 18 | 1376000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 17200,
+        "confidence": "high",
+        "sourceSnippet": "MON-002 | 80 | 17200 | 18 | 1376000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MON-002 | 80 | 17200 | 18 | 1376000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 17200,
+        "listUnitPriceINR": 17200,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 17200,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-003",
+      "rfxDescription": "Monitor 32\" 4K USB-C",
+      "rfxQuantity": 25,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 25,
+        "confidence": "high",
+        "sourceSnippet": "MON-003 | 25 | 38100 | 18 | 952500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 38100,
+        "confidence": "high",
+        "sourceSnippet": "MON-003 | 25 | 38100 | 18 | 952500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MON-003 | 25 | 38100 | 18 | 952500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 38100,
+        "listUnitPriceINR": 38100,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 38100,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-004",
+      "rfxDescription": "Monitor 34\" Ultrawide",
+      "rfxQuantity": 15,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 15,
+        "confidence": "high",
+        "sourceSnippet": "MON-004 | 15 | 40600 | 18 | 609000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 40600,
+        "confidence": "high",
+        "sourceSnippet": "MON-004 | 15 | 40600 | 18 | 609000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MON-004 | 15 | 40600 | 18 | 609000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 40600,
+        "listUnitPriceINR": 40600,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 40600,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-001",
+      "rfxDescription": "USB-C Docking Station 65W",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "DOC-001 | 100 | 7250 | 18 | 725000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 7250,
+        "confidence": "high",
+        "sourceSnippet": "DOC-001 | 100 | 7250 | 18 | 725000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "DOC-001 | 100 | 7250 | 18 | 725000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 7250,
+        "listUnitPriceINR": 7250,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 7250,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-002",
+      "rfxDescription": "Thunderbolt 4 Docking Station",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "DOC-002 | 40 | 18600 | 18 | 744000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 18600,
+        "confidence": "high",
+        "sourceSnippet": "DOC-002 | 40 | 18600 | 18 | 744000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "DOC-002 | 40 | 18600 | 18 | 744000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 18600,
+        "listUnitPriceINR": 18600,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 18600,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-003",
+      "rfxDescription": "Universal USB 3.0 Dual-Display Dock",
+      "rfxQuantity": 30,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 30,
+        "confidence": "high",
+        "sourceSnippet": "DOC-003 | 30 | 5650 | 18 | 169500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 5650,
+        "confidence": "high",
+        "sourceSnippet": "DOC-003 | 30 | 5650 | 18 | 169500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "DOC-003 | 30 | 5650 | 18 | 169500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 5650,
+        "listUnitPriceINR": 5650,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 5650,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-001",
+      "rfxDescription": "Wired USB Keyboard",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 200,
+        "confidence": "high",
+        "sourceSnippet": "KEY-001 | 200 | 660 | 18 | 132000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 660,
+        "confidence": "high",
+        "sourceSnippet": "KEY-001 | 200 | 660 | 18 | 132000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "KEY-001 | 200 | 660 | 18 | 132000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 660,
+        "listUnitPriceINR": 660,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 660,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-002",
+      "rfxDescription": "Wireless Keyboard + Mouse Combo",
+      "rfxQuantity": 150,
+      "rfxUnit": "Set",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "KEY-002 | 150 | 1800 | 18 | 270000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1800,
+        "confidence": "high",
+        "sourceSnippet": "KEY-002 | 150 | 1800 | 18 | 270000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "KEY-002 | 150 | 1800 | 18 | 270000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1800,
+        "listUnitPriceINR": 1800,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1800,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-003",
+      "rfxDescription": "Mechanical Keyboard",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 20,
+        "confidence": "high",
+        "sourceSnippet": "KEY-003 | 20 | 4750 | 18 | 95000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 4750,
+        "confidence": "high",
+        "sourceSnippet": "KEY-003 | 20 | 4750 | 18 | 95000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "KEY-003 | 20 | 4750 | 18 | 95000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 4750,
+        "listUnitPriceINR": 4750,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 4750,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-001",
+      "rfxDescription": "Wired Optical Mouse",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 200,
+        "confidence": "high",
+        "sourceSnippet": "MOU-001 | 200 | 355 | 18 | 71000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 355,
+        "confidence": "high",
+        "sourceSnippet": "MOU-001 | 200 | 355 | 18 | 71000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MOU-001 | 200 | 355 | 18 | 71000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 355,
+        "listUnitPriceINR": 355,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 355,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-002",
+      "rfxDescription": "Wireless Ergonomic Mouse",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "MOU-002 | 100 | 1450 | 18 | 145000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1450,
+        "confidence": "high",
+        "sourceSnippet": "MOU-002 | 100 | 1450 | 18 | 145000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MOU-002 | 100 | 1450 | 18 | 145000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1450,
+        "listUnitPriceINR": 1450,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1450,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-003",
+      "rfxDescription": "Bluetooth Travel Mouse",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 60,
+        "confidence": "high",
+        "sourceSnippet": "MOU-003 | 60 | 1250 | 18 | 75000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1250,
+        "confidence": "high",
+        "sourceSnippet": "MOU-003 | 60 | 1250 | 18 | 75000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "MOU-003 | 60 | 1250 | 18 | 75000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1250,
+        "listUnitPriceINR": 1250,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1250,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-001",
+      "rfxDescription": "HDMI Cable 2m",
+      "rfxQuantity": 250,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 250,
+        "confidence": "high",
+        "sourceSnippet": "CAB-001 | 250 | 370 | 18 | 92500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 370,
+        "confidence": "high",
+        "sourceSnippet": "CAB-001 | 250 | 370 | 18 | 92500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "CAB-001 | 250 | 370 | 18 | 92500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 370,
+        "listUnitPriceINR": 370,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 370,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-002",
+      "rfxDescription": "DisplayPort Cable 2m",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "CAB-002 | 150 | 630 | 18 | 94500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 630,
+        "confidence": "high",
+        "sourceSnippet": "CAB-002 | 150 | 630 | 18 | 94500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "CAB-002 | 150 | 630 | 18 | 94500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 630,
+        "listUnitPriceINR": 630,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 630,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-003",
+      "rfxDescription": "USB-C to USB-C Cable 1m",
+      "rfxQuantity": 300,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 300,
+        "confidence": "high",
+        "sourceSnippet": "CAB-003 | 300 | 535 | 18 | 160500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 535,
+        "confidence": "high",
+        "sourceSnippet": "CAB-003 | 300 | 535 | 18 | 160500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "CAB-003 | 300 | 535 | 18 | 160500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 535,
+        "listUnitPriceINR": 535,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 535,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-004",
+      "rfxDescription": "Cat6 Patch Cable 3m",
+      "rfxQuantity": 400,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 400,
+        "confidence": "high",
+        "sourceSnippet": "CAB-004 | 400 | 175 | 18 | 70000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 175,
+        "confidence": "high",
+        "sourceSnippet": "CAB-004 | 400 | 175 | 18 | 70000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "CAB-004 | 400 | 175 | 18 | 70000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 175,
+        "listUnitPriceINR": 175,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 175,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-005",
+      "rfxDescription": "USB-C to HDMI Adapter",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "CAB-005 | 120 | 850 | 18 | 102000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 850,
+        "confidence": "high",
+        "sourceSnippet": "CAB-005 | 120 | 850 | 18 | 102000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "CAB-005 | 120 | 850 | 18 | 102000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 850,
+        "listUnitPriceINR": 850,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 850,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-001",
+      "rfxDescription": "Webcam 1080p",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "WEB-001 | 100 | 2400 | 18 | 240000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 2400,
+        "confidence": "high",
+        "sourceSnippet": "WEB-001 | 100 | 2400 | 18 | 240000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "WEB-001 | 100 | 2400 | 18 | 240000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2400,
+        "listUnitPriceINR": 2400,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2400,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-002",
+      "rfxDescription": "4K Conference Webcam",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 20,
+        "confidence": "high",
+        "sourceSnippet": "WEB-002 | 20 | 11600 | 18 | 232000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 11600,
+        "confidence": "high",
+        "sourceSnippet": "WEB-002 | 20 | 11600 | 18 | 232000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "WEB-002 | 20 | 11600 | 18 | 232000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 11600,
+        "listUnitPriceINR": 11600,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 11600,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-001",
+      "rfxDescription": "USB Wired Headset with Mic",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "HDS-001 | 150 | 1900 | 18 | 285000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1900,
+        "confidence": "high",
+        "sourceSnippet": "HDS-001 | 150 | 1900 | 18 | 285000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "HDS-001 | 150 | 1900 | 18 | 285000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1900,
+        "listUnitPriceINR": 1900,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1900,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-002",
+      "rfxDescription": "Wireless ANC Headset",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "HDS-002 | 40 | 8950 | 18 | 358000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 8950,
+        "confidence": "high",
+        "sourceSnippet": "HDS-002 | 40 | 8950 | 18 | 358000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "HDS-002 | 40 | 8950 | 18 | 358000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 8950,
+        "listUnitPriceINR": 8950,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 8950,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "BAG-001",
+      "rfxDescription": "Laptop Backpack 15.6\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "BAG-001 | 120 | 1450 | 18 | 174000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1450,
+        "confidence": "high",
+        "sourceSnippet": "BAG-001 | 120 | 1450 | 18 | 174000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "BAG-001 | 120 | 1450 | 18 | 174000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1450,
+        "listUnitPriceINR": 1450,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1450,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "PWR-001",
+      "rfxDescription": "Universal 65W USB-C Charger",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 80,
+        "confidence": "high",
+        "sourceSnippet": "PWR-001 | 80 | 2100 | 18 | 168000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 2100,
+        "confidence": "high",
+        "sourceSnippet": "PWR-001 | 80 | 2100 | 18 | 168000 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "PWR-001 | 80 | 2100 | 18 | 168000 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2100,
+        "listUnitPriceINR": 2100,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2100,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    },
+    {
+      "itemCode": "STN-001",
+      "rfxDescription": "Aluminium Laptop Stand",
+      "rfxQuantity": 90,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 90,
+        "confidence": "high",
+        "sourceSnippet": "STN-001 | 90 | 1350 | 18 | 121500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1350,
+        "confidence": "high",
+        "sourceSnippet": "STN-001 | 90 | 1350 | 18 | 121500 | 3 Yrs",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All rates in Indian Rupees (INR), exclusive of GST.",
+        "snippetVerified": true
+      },
+      "notes": [
+        {
+          "text": "Warranty 3 Yrs; GST 18% extra.",
+          "sourceSnippet": "STN-001 | 90 | 1350 | 18 | 121500 | 3 Yrs"
+        }
+      ],
+      "flags": [
+        {
+          "type": "unit_assumed",
+          "reason": "No pack size stated; assumed price is per single unit.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1350,
+        "listUnitPriceINR": 1350,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1350,
+          "currency": "INR",
+          "basis": null
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": true
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [],
+        "assumptions": [
+          "No pack size found in the document; assumed the price is per single unit (pack size 1)."
+        ]
+      }
+    }
+  ]
+}

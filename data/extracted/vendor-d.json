@@ -1,0 +1,2220 @@
+{
+  "vendorId": "vendor-d",
+  "sourceFile": "vendor-d.png",
+  "extractedAt": "2026-11-06T03:35:08.067Z",
+  "model": "claude-sonnet-5-5",
+  "rfxId": "RFX-2026-0417",
+  "baseCurrency": "INR",
+  "basePriceBasis": "per_unit",
+  "rawContent": {
+    "source": "png",
+    "characters": null,
+    "sentAsImage": true,
+    "sentAsPdfDocument": false,
+    "imageOnlyPages": []
+  },
+  "assumptions": {
+    "fxRatesToINR": {
+      "INR": 1,
+      "USD": 83
+    }
+  },
+  "vendorName": "Shree Ganesh Computers",
+  "quoteNotes": [
+    {
+      "text": "GST extra at 18%",
+      "sourceSnippet": "GST extra @18%."
+    },
+    {
+      "text": "Rates valid till 31-Oct",
+      "sourceSnippet": "Rates valid till 31-Oct."
+    },
+    {
+      "text": "Ex-godown Delhi (freight/delivery not included)",
+      "sourceSnippet": "Ex-godown Delhi."
+    },
+    {
+      "text": "Minimum order 1 box",
+      "sourceSnippet": "Minimum 1 box."
+    },
+    {
+      "text": "All rates are per box of 100 units, in Rs.",
+      "sourceSnippet": "Rates per BOX of 100 units, in Rs."
+    }
+  ],
+  "discounts": [],
+  "summary": {
+    "lines": 30,
+    "quoted": 30,
+    "missing": 0,
+    "flagCounts": {
+      "unit_mismatch": 30
+    }
+  },
+  "usage": {
+    "inputTokens": 8564,
+    "outputTokens": 10093
+  },
+  "lines": [
+    {
+      "itemCode": "LAP-001",
+      "rfxDescription": "Business Laptop 14\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 7080000,
+        "confidence": "high",
+        "sourceSnippet": "LAP-001 Business Laptop 14\" Intel Core i5-1335U 70,80,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 70800,
+        "listUnitPriceINR": 70800,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 7080000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "7,080,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 7080000,
+            "output": 70800
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-002",
+      "rfxDescription": "Business Laptop 15.6\"",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 9940000,
+        "confidence": "high",
+        "sourceSnippet": "LAP-002 Business Laptop 15.6\" Intel Core i7-1355U 99,40,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 99400,
+        "listUnitPriceINR": 99400,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 9940000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "9,940,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 9940000,
+            "output": 99400
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-003",
+      "rfxDescription": "Mobile Workstation 16\"",
+      "rfxQuantity": 10,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 19140000,
+        "confidence": "high",
+        "sourceSnippet": "LAP-003 Mobile Workstation 16\" AMD Ryzen 9 7940HS 1,91,40,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 191400,
+        "listUnitPriceINR": 191400,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 19140000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "19,140,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 19140000,
+            "output": 191400
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-004",
+      "rfxDescription": "Ultraportable Laptop 13.3\"",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 8320000,
+        "confidence": "high",
+        "sourceSnippet": "LAP-004 Ultraportable Laptop 13.3\" Intel Core i5-1340P 83,20,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 83200,
+        "listUnitPriceINR": 83200,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 8320000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "8,320,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 8320000,
+            "output": 83200
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "DSK-001",
+      "rfxDescription": "Mini Desktop PC",
+      "rfxQuantity": 50,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 5330000,
+        "confidence": "high",
+        "sourceSnippet": "DSK-001 Mini Desktop PC Intel Core i5-13500T 53,30,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 53300,
+        "listUnitPriceINR": 53300,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 5330000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "5,330,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 5330000,
+            "output": 53300
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-001",
+      "rfxDescription": "Monitor 24\" FHD",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 990000,
+        "confidence": "high",
+        "sourceSnippet": "MON-001 Monitor 24\" FHD 24-inch IPS 9,90,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 9900,
+        "listUnitPriceINR": 9900,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 990000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "990,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 990000,
+            "output": 9900
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-002",
+      "rfxDescription": "Monitor 27\" QHD",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1790000,
+        "confidence": "high",
+        "sourceSnippet": "MON-002 Monitor 27\" QHD 27-inch IPS 17,90,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 17900,
+        "listUnitPriceINR": 17900,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1790000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "1,790,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 1790000,
+            "output": 17900
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-003",
+      "rfxDescription": "Monitor 32\" 4K USB-C",
+      "rfxQuantity": 25,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 3950000,
+        "confidence": "high",
+        "sourceSnippet": "MON-003 Monitor 32\" 4K USB-C 32-inch IPS 39,50,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 39500,
+        "listUnitPriceINR": 39500,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 3950000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "3,950,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 3950000,
+            "output": 39500
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-004",
+      "rfxDescription": "Monitor 34\" Ultrawide",
+      "rfxQuantity": 15,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 4110000,
+        "confidence": "high",
+        "sourceSnippet": "MON-004 Monitor 34\" Ultrawide 34-inch curved VA 41,10,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 41100,
+        "listUnitPriceINR": 41100,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 4110000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "4,110,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 4110000,
+            "output": 41100
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-001",
+      "rfxDescription": "USB-C Docking Station 65W",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 730000,
+        "confidence": "high",
+        "sourceSnippet": "DOC-001 USB-C Docking Station 65W USB-C 7,30,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 7300,
+        "listUnitPriceINR": 7300,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 730000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "730,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 730000,
+            "output": 7300
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-002",
+      "rfxDescription": "Thunderbolt 4 Docking Station",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1850000,
+        "confidence": "high",
+        "sourceSnippet": "DOC-002 Thunderbolt 4 Docking Station TB4 18,50,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 18500,
+        "listUnitPriceINR": 18500,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1850000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "1,850,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 1850000,
+            "output": 18500
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-003",
+      "rfxDescription": "Universal USB 3.0 Dual-Display Dock",
+      "rfxQuantity": 30,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 565000,
+        "confidence": "high",
+        "sourceSnippet": "DOC-003 Universal USB 3.0 Dual-Display Dock DisplayLink 5,65,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 5650,
+        "listUnitPriceINR": 5650,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 565000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "565,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 565000,
+            "output": 5650
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-001",
+      "rfxDescription": "Wired USB Keyboard",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 67500,
+        "confidence": "high",
+        "sourceSnippet": "KEY-001 Wired USB Keyboard Full-size 67,500",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 675,
+        "listUnitPriceINR": 675,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 67500,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "67,500 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 67500,
+            "output": 675
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-002",
+      "rfxDescription": "Wireless Keyboard + Mouse Combo",
+      "rfxQuantity": 150,
+      "rfxUnit": "Set",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "medium",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 185000,
+        "confidence": "high",
+        "sourceSnippet": "KEY-002 Wireless Keyboard + Mouse Combo 2.4GHz USB receiver 1,85,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single Set.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1850,
+        "listUnitPriceINR": 1850,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 185000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "185,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 185000,
+            "output": 1850
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-003",
+      "rfxDescription": "Mechanical Keyboard",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 485000,
+        "confidence": "high",
+        "sourceSnippet": "KEY-003 Mechanical Keyboard TKL 4,85,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 4850,
+        "listUnitPriceINR": 4850,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 485000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "485,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 485000,
+            "output": 4850
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-001",
+      "rfxDescription": "Wired Optical Mouse",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 35500,
+        "confidence": "high",
+        "sourceSnippet": "MOU-001 Wired Optical Mouse USB-A 35,500",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 355,
+        "listUnitPriceINR": 355,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 35500,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "35,500 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 35500,
+            "output": 355
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-002",
+      "rfxDescription": "Wireless Ergonomic Mouse",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 145000,
+        "confidence": "high",
+        "sourceSnippet": "MOU-002 Wireless Ergonomic Mouse Vertical grip 1,45,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1450,
+        "listUnitPriceINR": 1450,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 145000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "145,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 145000,
+            "output": 1450
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-003",
+      "rfxDescription": "Bluetooth Travel Mouse",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 125000,
+        "confidence": "high",
+        "sourceSnippet": "MOU-003 Bluetooth Travel Mouse Compact 1,25,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1250,
+        "listUnitPriceINR": 1250,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 125000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "125,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 125000,
+            "output": 1250
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-001",
+      "rfxDescription": "HDMI Cable 2m",
+      "rfxQuantity": 250,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 38500,
+        "confidence": "high",
+        "sourceSnippet": "CAB-001 HDMI Cable 2m HDMI 2.0 38,500",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 385,
+        "listUnitPriceINR": 385,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 38500,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "38,500 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 38500,
+            "output": 385
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-002",
+      "rfxDescription": "DisplayPort Cable 2m",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 63000,
+        "confidence": "high",
+        "sourceSnippet": "CAB-002 DisplayPort Cable 2m DisplayPort 1.4 63,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 630,
+        "listUnitPriceINR": 630,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 63000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "63,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 63000,
+            "output": 630
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-003",
+      "rfxDescription": "USB-C to USB-C Cable 1m",
+      "rfxQuantity": 300,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 54500,
+        "confidence": "high",
+        "sourceSnippet": "CAB-003 USB-C to USB-C Cable 1m USB 3.2 Gen2 54,500",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 545,
+        "listUnitPriceINR": 545,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 54500,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "54,500 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 54500,
+            "output": 545
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-004",
+      "rfxDescription": "Cat6 Patch Cable 3m",
+      "rfxQuantity": 400,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 18500,
+        "confidence": "high",
+        "sourceSnippet": "CAB-004 Cat6 Patch Cable 3m UTP Cat6 18,500",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 185,
+        "listUnitPriceINR": 185,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 18500,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "18,500 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 18500,
+            "output": 185
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-005",
+      "rfxDescription": "USB-C to HDMI Adapter",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 88000,
+        "confidence": "high",
+        "sourceSnippet": "CAB-005 USB-C to HDMI Adapter USB-C to HDMI 2.0 88,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 880,
+        "listUnitPriceINR": 880,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 88000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "88,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 88000,
+            "output": 880
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-001",
+      "rfxDescription": "Webcam 1080p",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 245000,
+        "confidence": "high",
+        "sourceSnippet": "WEB-001 Webcam 1080p Full HD 1080p/30fps 2,45,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2450,
+        "listUnitPriceINR": 2450,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 245000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "245,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 245000,
+            "output": 2450
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-002",
+      "rfxDescription": "4K Conference Webcam",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 1190000,
+        "confidence": "high",
+        "sourceSnippet": "WEB-002 4K Conference Webcam 4K/30fps 11,90,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 11900,
+        "listUnitPriceINR": 11900,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1190000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "1,190,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 1190000,
+            "output": 11900
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-001",
+      "rfxDescription": "USB Wired Headset with Mic",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 195000,
+        "confidence": "high",
+        "sourceSnippet": "HDS-001 USB Wired Headset with Mic Over-ear 1,95,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1950,
+        "listUnitPriceINR": 1950,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 195000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "195,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 195000,
+            "output": 1950
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-002",
+      "rfxDescription": "Wireless ANC Headset",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 895000,
+        "confidence": "high",
+        "sourceSnippet": "HDS-002 Wireless ANC Headset Bluetooth 5.2 8,95,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 8950,
+        "listUnitPriceINR": 8950,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 895000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "895,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 895000,
+            "output": 8950
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "BAG-001",
+      "rfxDescription": "Laptop Backpack 15.6\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 145000,
+        "confidence": "high",
+        "sourceSnippet": "BAG-001 Laptop Backpack 15.6\" Water-resistant 1,45,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1450,
+        "listUnitPriceINR": 1450,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 145000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "145,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 145000,
+            "output": 1450
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "PWR-001",
+      "rfxDescription": "Universal 65W USB-C Charger",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 215000,
+        "confidence": "high",
+        "sourceSnippet": "PWR-001 Universal 65W USB-C Charger GaN 2,15,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2150,
+        "listUnitPriceINR": 2150,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 215000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "215,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 215000,
+            "output": 2150
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    },
+    {
+      "itemCode": "STN-001",
+      "rfxDescription": "Aluminium Laptop Stand",
+      "rfxQuantity": 90,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": "per box of 100 pcs",
+        "unitsPerPricedUnit": 100,
+        "confidence": "high",
+        "sourceSnippet": "Price / Box (100 pcs)",
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": 140000,
+        "confidence": "high",
+        "sourceSnippet": "STN-001 Aluminium Laptop Stand Adjustable height/angle 1,40,000",
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "Rates per BOX of 100 units, in Rs.",
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "unit_mismatch",
+          "reason": "Price is quoted per box of 100 pcs, not per single unit (Nos).",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1400,
+        "listUnitPriceINR": 1400,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 140000,
+          "currency": "INR",
+          "basis": "per box of 100 pcs"
+        },
+        "packSize": {
+          "value": 100,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "pack_size",
+            "description": "140,000 INR (per box of 100 pcs) / 100 units per pack",
+            "input": 140000,
+            "output": 1400
+          }
+        ],
+        "assumptions": [
+          "Priced per pack of 100 units (from \"per box of 100 pcs\"); divided by 100 for a per-unit price."
+        ]
+      }
+    }
+  ]
+}

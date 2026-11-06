@@ -1,0 +1,2139 @@
+{
+  "vendorId": "vendor-b",
+  "sourceFile": "vendor-b.pdf",
+  "extractedAt": "2026-11-06T03:29:41.668Z",
+  "model": "claude-sonnet-5-5",
+  "rfxId": "RFX-2026-0417",
+  "baseCurrency": "INR",
+  "basePriceBasis": "per_unit",
+  "rawContent": {
+    "source": "pdf",
+    "characters": 4286,
+    "sentAsImage": false,
+    "sentAsPdfDocument": false,
+    "imageOnlyPages": []
+  },
+  "assumptions": {
+    "fxRatesToINR": {
+      "INR": 1,
+      "USD": 83
+    }
+  },
+  "vendorName": "Sundaram Infosystems Pvt. Ltd.",
+  "quoteNotes": [
+    {
+      "text": "Prices are exclusive of GST @18%.",
+      "sourceSnippet": "GST @18%."
+    },
+    {
+      "text": "Payment 30 days from delivery.",
+      "sourceSnippet": "Payment 30 days from delivery."
+    },
+    {
+      "text": "Delivery 4-5 weeks from PO.",
+      "sourceSnippet": "Delivery 4-5 weeks from PO."
+    },
+    {
+      "text": "Warranty as per OEM.",
+      "sourceSnippet": "Warranty as per OEM."
+    },
+    {
+      "text": "Prices valid for 21 days from date of offer (offer dated 17 October 2026).",
+      "sourceSnippet": "Prices valid for 21 days from date of"
+    }
+  ],
+  "discounts": [
+    {
+      "description": "Special discount of 5% on the total basic value",
+      "percent": 5,
+      "appliesTo": "whole_quote",
+      "conditions": "Order must be confirmed within 15 days of the offer",
+      "confidence": "high",
+      "sourceSnippet": "A special discount of 5% on the total basic value shall be allowed if the order is confirmed within 15 days of this offer.",
+      "snippetVerified": true,
+      "applied": true
+    }
+  ],
+  "summary": {
+    "lines": 30,
+    "quoted": 27,
+    "missing": 3,
+    "flagCounts": {
+      "discount_applied": 27,
+      "missing_line": 3
+    }
+  },
+  "usage": {
+    "inputTokens": 7672,
+    "outputTokens": 9024
+  },
+  "lines": [
+    {
+      "itemCode": "LAP-001",
+      "rfxDescription": "Business Laptop 14\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "120 71,600 85,92,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 71600,
+        "confidence": "high",
+        "sourceSnippet": "120 71,600 85,92,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 68020,
+        "listUnitPriceINR": 71600,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 71600,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "71,600 x (1 - 5%)",
+            "input": 71600,
+            "output": 68020
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-002",
+      "rfxDescription": "Business Laptop 15.6\"",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "40 1,02,600 41,04,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 102600,
+        "confidence": "high",
+        "sourceSnippet": "40 1,02,600 41,04,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 97470,
+        "listUnitPriceINR": 102600,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 102600,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "102,600 x (1 - 5%)",
+            "input": 102600,
+            "output": 97470
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-003",
+      "rfxDescription": "Mobile Workstation 16\"",
+      "rfxQuantity": 10,
+      "rfxUnit": "Nos",
+      "status": "missing",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "missing_line",
+          "reason": "Mobile Workstation 16\" (Ryzen 9 7940HS, RTX A2000) does not appear in the vendor's offer.",
+          "source": "model"
+        }
+      ],
+      "normalized": null
+    },
+    {
+      "itemCode": "LAP-004",
+      "rfxDescription": "Ultraportable Laptop 13.3\"",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 60,
+        "confidence": "high",
+        "sourceSnippet": "60 84,400 50,64,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 84400,
+        "confidence": "high",
+        "sourceSnippet": "60 84,400 50,64,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 80180,
+        "listUnitPriceINR": 84400,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 84400,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "84,400 x (1 - 5%)",
+            "input": 84400,
+            "output": 80180
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "DSK-001",
+      "rfxDescription": "Mini Desktop PC",
+      "rfxQuantity": 50,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 50,
+        "confidence": "high",
+        "sourceSnippet": "50 54,200 27,10,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 54200,
+        "confidence": "high",
+        "sourceSnippet": "50 54,200 27,10,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 51490,
+        "listUnitPriceINR": 54200,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 54200,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "54,200 x (1 - 5%)",
+            "input": 54200,
+            "output": 51490
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-001",
+      "rfxDescription": "Monitor 24\" FHD",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "150 10,000 15,00,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 10000,
+        "confidence": "high",
+        "sourceSnippet": "150 10,000 15,00,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 9500,
+        "listUnitPriceINR": 10000,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 10000,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "10,000 x (1 - 5%)",
+            "input": 10000,
+            "output": 9500
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-002",
+      "rfxDescription": "Monitor 27\" QHD",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 80,
+        "confidence": "high",
+        "sourceSnippet": "80 18,000 14,40,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 18000,
+        "confidence": "high",
+        "sourceSnippet": "80 18,000 14,40,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 17100,
+        "listUnitPriceINR": 18000,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 18000,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "18,000 x (1 - 5%)",
+            "input": 18000,
+            "output": 17100
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-003",
+      "rfxDescription": "Monitor 32\" 4K USB-C",
+      "rfxQuantity": 25,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 25,
+        "confidence": "high",
+        "sourceSnippet": "25 40,000 10,00,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 40000,
+        "confidence": "high",
+        "sourceSnippet": "25 40,000 10,00,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 38000,
+        "listUnitPriceINR": 40000,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 40000,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "40,000 x (1 - 5%)",
+            "input": 40000,
+            "output": 38000
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-004",
+      "rfxDescription": "Monitor 34\" Ultrawide",
+      "rfxQuantity": 15,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 15,
+        "confidence": "high",
+        "sourceSnippet": "15 42,100 6,31,500",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 42100,
+        "confidence": "high",
+        "sourceSnippet": "15 42,100 6,31,500",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 39995,
+        "listUnitPriceINR": 42100,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 42100,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "42,100 x (1 - 5%)",
+            "input": 42100,
+            "output": 39995
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-001",
+      "rfxDescription": "USB-C Docking Station 65W",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "100 7,500 7,50,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 7500,
+        "confidence": "high",
+        "sourceSnippet": "100 7,500 7,50,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 7125,
+        "listUnitPriceINR": 7500,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 7500,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "7,500 x (1 - 5%)",
+            "input": 7500,
+            "output": 7125
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-002",
+      "rfxDescription": "Thunderbolt 4 Docking Station",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "40 19,600 7,84,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 19600,
+        "confidence": "high",
+        "sourceSnippet": "40 19,600 7,84,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 18620,
+        "listUnitPriceINR": 19600,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 19600,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "19,600 x (1 - 5%)",
+            "input": 19600,
+            "output": 18620
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-003",
+      "rfxDescription": "Universal USB 3.0 Dual-Display Dock",
+      "rfxQuantity": 30,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 30,
+        "confidence": "high",
+        "sourceSnippet": "30 5,900 1,77,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 5900,
+        "confidence": "high",
+        "sourceSnippet": "30 5,900 1,77,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 5605,
+        "listUnitPriceINR": 5900,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 5900,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "5,900 x (1 - 5%)",
+            "input": 5900,
+            "output": 5605
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-001",
+      "rfxDescription": "Wired USB Keyboard",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 200,
+        "confidence": "high",
+        "sourceSnippet": "200 680 1,36,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 680,
+        "confidence": "high",
+        "sourceSnippet": "200 680 1,36,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 646,
+        "listUnitPriceINR": 680,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 680,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "680 x (1 - 5%)",
+            "input": 680,
+            "output": 646
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-002",
+      "rfxDescription": "Wireless Keyboard + Mouse Combo",
+      "rfxQuantity": 150,
+      "rfxUnit": "Set",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "150 1,900 2,85,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "medium",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 1900,
+        "confidence": "high",
+        "sourceSnippet": "150 1,900 2,85,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1805,
+        "listUnitPriceINR": 1900,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1900,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "1,900 x (1 - 5%)",
+            "input": 1900,
+            "output": 1805
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-003",
+      "rfxDescription": "Mechanical Keyboard",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 20,
+        "confidence": "high",
+        "sourceSnippet": "20 5,050 1,01,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 5050,
+        "confidence": "high",
+        "sourceSnippet": "20 5,050 1,01,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 4797.5,
+        "listUnitPriceINR": 5050,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 5050,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "5,050 x (1 - 5%)",
+            "input": 5050,
+            "output": 4797.5
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-001",
+      "rfxDescription": "Wired Optical Mouse",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 200,
+        "confidence": "high",
+        "sourceSnippet": "15 MOU-001 Wired Optical Mouse - USB-A, 1000 DPI, 3 buttons, 1.5m cable 200 370 74,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 370,
+        "confidence": "high",
+        "sourceSnippet": "15 MOU-001 Wired Optical Mouse - USB-A, 1000 DPI, 3 buttons, 1.5m cable 200 370 74,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 351.5,
+        "listUnitPriceINR": 370,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 370,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "370 x (1 - 5%)",
+            "input": 370,
+            "output": 351.5
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-002",
+      "rfxDescription": "Wireless Ergonomic Mouse",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "100 1,500 1,50,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 1500,
+        "confidence": "high",
+        "sourceSnippet": "100 1,500 1,50,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1425,
+        "listUnitPriceINR": 1500,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1500,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "1,500 x (1 - 5%)",
+            "input": 1500,
+            "output": 1425
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-003",
+      "rfxDescription": "Bluetooth Travel Mouse",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 60,
+        "confidence": "high",
+        "sourceSnippet": "60 1,300 78,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 1300,
+        "confidence": "high",
+        "sourceSnippet": "60 1,300 78,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1235,
+        "listUnitPriceINR": 1300,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1300,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "1,300 x (1 - 5%)",
+            "input": 1300,
+            "output": 1235
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-001",
+      "rfxDescription": "HDMI Cable 2m",
+      "rfxQuantity": 250,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 250,
+        "confidence": "high",
+        "sourceSnippet": "250 400 1,00,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 400,
+        "confidence": "high",
+        "sourceSnippet": "250 400 1,00,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 380,
+        "listUnitPriceINR": 400,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 400,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "400 x (1 - 5%)",
+            "input": 400,
+            "output": 380
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-002",
+      "rfxDescription": "DisplayPort Cable 2m",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "150 645 96,750",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 645,
+        "confidence": "high",
+        "sourceSnippet": "150 645 96,750",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 612.75,
+        "listUnitPriceINR": 645,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 645,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "645 x (1 - 5%)",
+            "input": 645,
+            "output": 612.75
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-003",
+      "rfxDescription": "USB-C to USB-C Cable 1m",
+      "rfxQuantity": 300,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 300,
+        "confidence": "high",
+        "sourceSnippet": "300 560 1,68,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 560,
+        "confidence": "high",
+        "sourceSnippet": "300 560 1,68,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 532,
+        "listUnitPriceINR": 560,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 560,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "560 x (1 - 5%)",
+            "input": 560,
+            "output": 532
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-004",
+      "rfxDescription": "Cat6 Patch Cable 3m",
+      "rfxQuantity": 400,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 400,
+        "confidence": "high",
+        "sourceSnippet": "21 CAB-004 Cat6 Patch Cable 3m - UTP Cat6, snagless boot, 24AWG, blue 400 190 76,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 190,
+        "confidence": "high",
+        "sourceSnippet": "21 CAB-004 Cat6 Patch Cable 3m - UTP Cat6, snagless boot, 24AWG, blue 400 190 76,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 180.5,
+        "listUnitPriceINR": 190,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 190,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "190 x (1 - 5%)",
+            "input": 190,
+            "output": 180.5
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-005",
+      "rfxDescription": "USB-C to HDMI Adapter",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "120 880 1,05,600",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 880,
+        "confidence": "high",
+        "sourceSnippet": "120 880 1,05,600",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 836,
+        "listUnitPriceINR": 880,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 880,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "880 x (1 - 5%)",
+            "input": 880,
+            "output": 836
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-001",
+      "rfxDescription": "Webcam 1080p",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "100 2,550 2,55,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 2550,
+        "confidence": "high",
+        "sourceSnippet": "100 2,550 2,55,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2422.5,
+        "listUnitPriceINR": 2550,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2550,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "2,550 x (1 - 5%)",
+            "input": 2550,
+            "output": 2422.5
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-002",
+      "rfxDescription": "4K Conference Webcam",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "missing",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "missing_line",
+          "reason": "4K Conference Webcam does not appear in the vendor's offer.",
+          "source": "model"
+        }
+      ],
+      "normalized": null
+    },
+    {
+      "itemCode": "HDS-001",
+      "rfxDescription": "USB Wired Headset with Mic",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "150 2,000 3,00,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 2000,
+        "confidence": "high",
+        "sourceSnippet": "150 2,000 3,00,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1900,
+        "listUnitPriceINR": 2000,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2000,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "2,000 x (1 - 5%)",
+            "input": 2000,
+            "output": 1900
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-002",
+      "rfxDescription": "Wireless ANC Headset",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "40 9,250 3,70,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 9250,
+        "confidence": "high",
+        "sourceSnippet": "40 9,250 3,70,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 8787.5,
+        "listUnitPriceINR": 9250,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 9250,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "9,250 x (1 - 5%)",
+            "input": 9250,
+            "output": 8787.5
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "BAG-001",
+      "rfxDescription": "Laptop Backpack 15.6\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "120 1,500 1,80,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 1500,
+        "confidence": "high",
+        "sourceSnippet": "120 1,500 1,80,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1425,
+        "listUnitPriceINR": 1500,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1500,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "1,500 x (1 - 5%)",
+            "input": 1500,
+            "output": 1425
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "PWR-001",
+      "rfxDescription": "Universal 65W USB-C Charger",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 80,
+        "confidence": "high",
+        "sourceSnippet": "80 2,150 1,72,000",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*, per unit, exclusive of",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 2150,
+        "confidence": "high",
+        "sourceSnippet": "80 2,150 1,72,000",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "INR",
+        "confidence": "high",
+        "sourceSnippet": "All prices in INR*",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "discount_applied",
+          "reason": "5% quote-level discount applied to the normalized price.",
+          "source": "engine"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2042.5,
+        "listUnitPriceINR": 2150,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2150,
+          "currency": "INR",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 1,
+          "from": "INR",
+          "source": "identity"
+        },
+        "discountPercent": 5,
+        "steps": [
+          {
+            "step": "discount",
+            "description": "2,150 x (1 - 5%)",
+            "input": 2150,
+            "output": 2042.5
+          }
+        ],
+        "assumptions": [
+          "Applied whole-quote discount of 5% as stated in the document; any conditions attached to it are assumed to be met."
+        ]
+      }
+    },
+    {
+      "itemCode": "STN-001",
+      "rfxDescription": "Aluminium Laptop Stand",
+      "rfxQuantity": 90,
+      "rfxUnit": "Nos",
+      "status": "missing",
+      "quantity": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unit": {
+        "value": null,
+        "unitsPerPricedUnit": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "unitPrice": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null,
+        "sourceSnippet": null,
+        "snippetVerified": null
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "missing_line",
+          "reason": "Aluminium Laptop Stand does not appear in the vendor's offer.",
+          "source": "model"
+        }
+      ],
+      "normalized": null
+    }
+  ]
+}

@@ -1,0 +1,2216 @@
+{
+  "vendorId": "vendor-c",
+  "sourceFile": "vendor-c.docx",
+  "extractedAt": "2026-11-06T03:23:39.708Z",
+  "model": "claude-sonnet-5-5",
+  "rfxId": "RFX-2026-0417",
+  "baseCurrency": "INR",
+  "basePriceBasis": "per_unit",
+  "rawContent": {
+    "source": "docx",
+    "characters": 5581,
+    "sentAsImage": false,
+    "sentAsPdfDocument": false,
+    "imageOnlyPages": []
+  },
+  "assumptions": {
+    "fxRatesToINR": {
+      "INR": 1,
+      "USD": 83
+    }
+  },
+  "vendorName": "Brightwave Global Trading LLC",
+  "quoteNotes": [
+    {
+      "text": "All prices are in USD, ex-works Dubai, exclusive of freight, insurance and any import duties or taxes in India.",
+      "sourceSnippet": "All prices in this letter are quoted in United States Dollars (USD), ex-works Dubai, exclusive of freight, insurance and any import duties or taxes in India."
+    },
+    {
+      "text": "Offer valid for 30 days.",
+      "sourceSnippet": "Our offer is valid for thirty (30) days."
+    },
+    {
+      "text": "Shipping terms FCA Dubai; sea or air freight to be quoted separately once consignee address is confirmed.",
+      "sourceSnippet": "Shipping terms are FCA Dubai; we will quote sea or air freight separately once you confirm the consignee address."
+    },
+    {
+      "text": "Payment terms: 50% advance, 50% against shipping documents.",
+      "sourceSnippet": "Payment: 50% advance, 50% against shipping documents."
+    }
+  ],
+  "discounts": [],
+  "summary": {
+    "lines": 30,
+    "quoted": 30,
+    "missing": 0,
+    "flagCounts": {
+      "currency_mismatch": 30
+    }
+  },
+  "usage": {
+    "inputTokens": 7748,
+    "outputTokens": 18020
+  },
+  "lines": [
+    {
+      "itemCode": "LAP-001",
+      "rfxDescription": "Business Laptop 14\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 14 inch (Intel Core i5-1335U, 16GB DDR5, 512GB NVMe SSD) - we quote $810.84 a piece, and this covers the full 120 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 14 inch (Intel Core i5-1335U, 16GB DDR5, 512GB NVMe SSD) - we quote $810.84 a piece, and this covers the full 120 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 810.84,
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 14 inch (Intel Core i5-1335U, 16GB DDR5, 512GB NVMe SSD) - we quote $810.84 a piece, and this covers the full 120 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 14 inch (Intel Core i5-1335U, 16GB DDR5, 512GB NVMe SSD) - we quote $810.84 a piece, and this covers the full 120 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 67299.72,
+        "listUnitPriceINR": 67299.72,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 810.84,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "810.84 USD x 83 INR/USD",
+            "input": 810.84,
+            "output": 67299.72
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-002",
+      "rfxDescription": "Business Laptop 15.6\"",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 15.6 inch (Intel Core i7-1355U, 32GB DDR5, 1TB NVMe SSD): unit rate is USD 1,177.11. We have noted the 40-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 15.6 inch (Intel Core i7-1355U, 32GB DDR5, 1TB NVMe SSD): unit rate is USD 1,177.11. We have noted the 40-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 1177.11,
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 15.6 inch (Intel Core i7-1355U, 32GB DDR5, 1TB NVMe SSD): unit rate is USD 1,177.11. We have noted the 40-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Business Laptop 15.6 inch (Intel Core i7-1355U, 32GB DDR5, 1TB NVMe SSD): unit rate is USD 1,177.11. We have noted the 40-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 97700.13,
+        "listUnitPriceINR": 97700.13,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 1177.11,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "1,177.11 USD x 83 INR/USD",
+            "input": 1177.11,
+            "output": 97700.12999999999
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-003",
+      "rfxDescription": "Mobile Workstation 16\"",
+      "rfxQuantity": 10,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 10,
+        "confidence": "high",
+        "sourceSnippet": "Mobile Workstation 16 inch (AMD Ryzen 9 7940HS, 64GB DDR5, 2TB SSD): unit rate is USD 2,187.95. We have noted the 10-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Mobile Workstation 16 inch (AMD Ryzen 9 7940HS, 64GB DDR5, 2TB SSD): unit rate is USD 2,187.95. We have noted the 10-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 2187.95,
+        "confidence": "high",
+        "sourceSnippet": "Mobile Workstation 16 inch (AMD Ryzen 9 7940HS, 64GB DDR5, 2TB SSD): unit rate is USD 2,187.95. We have noted the 10-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Mobile Workstation 16 inch (AMD Ryzen 9 7940HS, 64GB DDR5, 2TB SSD): unit rate is USD 2,187.95. We have noted the 10-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 181599.85,
+        "listUnitPriceINR": 181599.85,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2187.95,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "2,187.95 USD x 83 INR/USD",
+            "input": 2187.95,
+            "output": 181599.84999999998
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "LAP-004",
+      "rfxDescription": "Ultraportable Laptop 13.3\"",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 60,
+        "confidence": "high",
+        "sourceSnippet": "Ultraportable Laptop 13.3 inch (Intel Core i5-1340P, 16GB LPDDR5, 512GB SSD), our price is USD 953.01 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Ultraportable Laptop 13.3 inch (Intel Core i5-1340P, 16GB LPDDR5, 512GB SSD), our price is USD 953.01 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 953.01,
+        "confidence": "high",
+        "sourceSnippet": "Ultraportable Laptop 13.3 inch (Intel Core i5-1340P, 16GB LPDDR5, 512GB SSD), our price is USD 953.01 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Ultraportable Laptop 13.3 inch (Intel Core i5-1340P, 16GB LPDDR5, 512GB SSD), our price is USD 953.01 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 79099.83,
+        "listUnitPriceINR": 79099.83,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 953.01,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "953.01 USD x 83 INR/USD",
+            "input": 953.01,
+            "output": 79099.83
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DSK-001",
+      "rfxDescription": "Mini Desktop PC",
+      "rfxQuantity": 50,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 50,
+        "confidence": "high",
+        "sourceSnippet": "Mini Desktop PC (Intel Core i5-13500T, 16GB DDR4, 512GB SSD) - we quote $609.64 a piece, and this covers the full 50 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Mini Desktop PC (Intel Core i5-13500T, 16GB DDR4, 512GB SSD) - we quote $609.64 a piece, and this covers the full 50 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 609.64,
+        "confidence": "high",
+        "sourceSnippet": "Mini Desktop PC (Intel Core i5-13500T, 16GB DDR4, 512GB SSD) - we quote $609.64 a piece, and this covers the full 50 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Mini Desktop PC (Intel Core i5-13500T, 16GB DDR4, 512GB SSD) - we quote $609.64 a piece, and this covers the full 50 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 50600.12,
+        "listUnitPriceINR": 50600.12,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 609.64,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "609.64 USD x 83 INR/USD",
+            "input": 609.64,
+            "output": 50600.119999999995
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-001",
+      "rfxDescription": "Monitor 24\" FHD",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 24 inch FHD (24-inch IPS, 1920x1080, 75Hz) comes to $116.27 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 24 inch FHD (24-inch IPS, 1920x1080, 75Hz) comes to $116.27 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 116.27,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 24 inch FHD (24-inch IPS, 1920x1080, 75Hz) comes to $116.27 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Monitor 24 inch FHD (24-inch IPS, 1920x1080, 75Hz) comes to $116.27 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 9650.41,
+        "listUnitPriceINR": 9650.41,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 116.27,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "116.27 USD x 83 INR/USD",
+            "input": 116.27,
+            "output": 9650.41
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-002",
+      "rfxDescription": "Monitor 27\" QHD",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 80,
+        "confidence": "high",
+        "sourceSnippet": "The Monitor 27 inch QHD (27-inch IPS, 2560x1440, 75Hz) can be supplied at 206.02 US dollars each (quantity 80 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "each",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "The Monitor 27 inch QHD (27-inch IPS, 2560x1440, 75Hz) can be supplied at 206.02 US dollars each (quantity 80 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 206.02,
+        "confidence": "high",
+        "sourceSnippet": "The Monitor 27 inch QHD (27-inch IPS, 2560x1440, 75Hz) can be supplied at 206.02 US dollars each (quantity 80 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "The Monitor 27 inch QHD (27-inch IPS, 2560x1440, 75Hz) can be supplied at 206.02 US dollars each (quantity 80 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 17099.66,
+        "listUnitPriceINR": 17099.66,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 206.02,
+          "currency": "USD",
+          "basis": "each"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "206.02 USD x 83 INR/USD",
+            "input": 206.02,
+            "output": 17099.66
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-003",
+      "rfxDescription": "Monitor 32\" 4K USB-C",
+      "rfxQuantity": 25,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 25,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 32 inch 4K USB-C (32-inch IPS, 3840x2160, USB-C 90W PD) - we quote $455.42 a piece, and this covers the full 25 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 32 inch 4K USB-C (32-inch IPS, 3840x2160, USB-C 90W PD) - we quote $455.42 a piece, and this covers the full 25 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 455.42,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 32 inch 4K USB-C (32-inch IPS, 3840x2160, USB-C 90W PD) - we quote $455.42 a piece, and this covers the full 25 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Monitor 32 inch 4K USB-C (32-inch IPS, 3840x2160, USB-C 90W PD) - we quote $455.42 a piece, and this covers the full 25 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 37799.86,
+        "listUnitPriceINR": 37799.86,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 455.42,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "455.42 USD x 83 INR/USD",
+            "input": 455.42,
+            "output": 37799.86
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MON-004",
+      "rfxDescription": "Monitor 34\" Ultrawide",
+      "rfxQuantity": 15,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 15,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 34 inch Ultrawide (34-inch curved VA, 3440x1440, 100Hz): unit rate is USD 480.72. We have noted the 15-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 34 inch Ultrawide (34-inch curved VA, 3440x1440, 100Hz): unit rate is USD 480.72. We have noted the 15-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 480.72,
+        "confidence": "high",
+        "sourceSnippet": "Monitor 34 inch Ultrawide (34-inch curved VA, 3440x1440, 100Hz): unit rate is USD 480.72. We have noted the 15-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Monitor 34 inch Ultrawide (34-inch curved VA, 3440x1440, 100Hz): unit rate is USD 480.72. We have noted the 15-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 39899.76,
+        "listUnitPriceINR": 39899.76,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 480.72,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "480.72 USD x 83 INR/USD",
+            "input": 480.72,
+            "output": 39899.76
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-001",
+      "rfxDescription": "USB-C Docking Station 65W",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "USB-C Docking Station 65W (USB-C, dual 4K HDMI, 3x USB-A) comes to $83.13 per unit, which we can confirm for 100 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "USB-C Docking Station 65W (USB-C, dual 4K HDMI, 3x USB-A) comes to $83.13 per unit, which we can confirm for 100 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 83.13,
+        "confidence": "high",
+        "sourceSnippet": "USB-C Docking Station 65W (USB-C, dual 4K HDMI, 3x USB-A) comes to $83.13 per unit, which we can confirm for 100 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "USB-C Docking Station 65W (USB-C, dual 4K HDMI, 3x USB-A) comes to $83.13 per unit, which we can confirm for 100 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 6899.79,
+        "listUnitPriceINR": 6899.79,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 83.13,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "83.13 USD x 83 INR/USD",
+            "input": 83.13,
+            "output": 6899.79
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-002",
+      "rfxDescription": "Thunderbolt 4 Docking Station",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "The Thunderbolt 4 Docking Station (TB4, 96W charging, dual 4K60 DP) can be supplied at 214.46 US dollars each (quantity 40 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "each",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "The Thunderbolt 4 Docking Station (TB4, 96W charging, dual 4K60 DP) can be supplied at 214.46 US dollars each (quantity 40 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 214.46,
+        "confidence": "high",
+        "sourceSnippet": "The Thunderbolt 4 Docking Station (TB4, 96W charging, dual 4K60 DP) can be supplied at 214.46 US dollars each (quantity 40 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "The Thunderbolt 4 Docking Station (TB4, 96W charging, dual 4K60 DP) can be supplied at 214.46 US dollars each (quantity 40 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 17800.18,
+        "listUnitPriceINR": 17800.18,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 214.46,
+          "currency": "USD",
+          "basis": "each"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "214.46 USD x 83 INR/USD",
+            "input": 214.46,
+            "output": 17800.18
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "DOC-003",
+      "rfxDescription": "Universal USB 3.0 Dual-Display Dock",
+      "rfxQuantity": 30,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 30,
+        "confidence": "high",
+        "sourceSnippet": "Universal USB 3.0 Dual-Display Dock (DisplayLink, 2x HDMI, 4x USB 3.0) comes to $66.87 per unit, which we can confirm for 30 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Universal USB 3.0 Dual-Display Dock (DisplayLink, 2x HDMI, 4x USB 3.0) comes to $66.87 per unit, which we can confirm for 30 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 66.87,
+        "confidence": "high",
+        "sourceSnippet": "Universal USB 3.0 Dual-Display Dock (DisplayLink, 2x HDMI, 4x USB 3.0) comes to $66.87 per unit, which we can confirm for 30 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Universal USB 3.0 Dual-Display Dock (DisplayLink, 2x HDMI, 4x USB 3.0) comes to $66.87 per unit, which we can confirm for 30 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 5550.21,
+        "listUnitPriceINR": 5550.21,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 66.87,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "66.87 USD x 83 INR/USD",
+            "input": 66.87,
+            "output": 5550.21
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-001",
+      "rfxDescription": "Wired USB Keyboard",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 200,
+        "confidence": "high",
+        "sourceSnippet": "The Wired USB Keyboard (Full-size, membrane, spill-resistant) can be supplied at 7.71 US dollars each (quantity 200 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "each",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "The Wired USB Keyboard (Full-size, membrane, spill-resistant) can be supplied at 7.71 US dollars each (quantity 200 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 7.71,
+        "confidence": "high",
+        "sourceSnippet": "The Wired USB Keyboard (Full-size, membrane, spill-resistant) can be supplied at 7.71 US dollars each (quantity 200 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "The Wired USB Keyboard (Full-size, membrane, spill-resistant) can be supplied at 7.71 US dollars each (quantity 200 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 639.93,
+        "listUnitPriceINR": 639.93,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 7.71,
+          "currency": "USD",
+          "basis": "each"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "7.71 USD x 83 INR/USD",
+            "input": 7.71,
+            "output": 639.93
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-002",
+      "rfxDescription": "Wireless Keyboard + Mouse Combo",
+      "rfxQuantity": 150,
+      "rfxUnit": "Set",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "Wireless Keyboard + Mouse Combo (2.4GHz USB receiver, low-profile keys, 12-month battery life) comes to $20.48 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "medium",
+        "sourceSnippet": "Wireless Keyboard + Mouse Combo (2.4GHz USB receiver, low-profile keys, 12-month battery life) comes to $20.48 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 20.48,
+        "confidence": "high",
+        "sourceSnippet": "Wireless Keyboard + Mouse Combo (2.4GHz USB receiver, low-profile keys, 12-month battery life) comes to $20.48 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Wireless Keyboard + Mouse Combo (2.4GHz USB receiver, low-profile keys, 12-month battery life) comes to $20.48 per unit, which we can confirm for 150 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1699.84,
+        "listUnitPriceINR": 1699.84,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 20.48,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "20.48 USD x 83 INR/USD",
+            "input": 20.48,
+            "output": 1699.8400000000001
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "KEY-003",
+      "rfxDescription": "Mechanical Keyboard",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 20,
+        "confidence": "high",
+        "sourceSnippet": "Mechanical Keyboard (TKL, hot-swappable red switches, USB-C detachable cable) comes to $56.02 per unit, which we can confirm for 20 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Mechanical Keyboard (TKL, hot-swappable red switches, USB-C detachable cable) comes to $56.02 per unit, which we can confirm for 20 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 56.02,
+        "confidence": "high",
+        "sourceSnippet": "Mechanical Keyboard (TKL, hot-swappable red switches, USB-C detachable cable) comes to $56.02 per unit, which we can confirm for 20 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Mechanical Keyboard (TKL, hot-swappable red switches, USB-C detachable cable) comes to $56.02 per unit, which we can confirm for 20 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 4649.66,
+        "listUnitPriceINR": 4649.66,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 56.02,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "56.02 USD x 83 INR/USD",
+            "input": 56.02,
+            "output": 4649.66
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-001",
+      "rfxDescription": "Wired Optical Mouse",
+      "rfxQuantity": 200,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 200,
+        "confidence": "high",
+        "sourceSnippet": "Wired Optical Mouse (USB-A, 1000 DPI, 3 buttons): unit rate is USD 4.10. We have noted the 200-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Wired Optical Mouse (USB-A, 1000 DPI, 3 buttons): unit rate is USD 4.10. We have noted the 200-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 4.1,
+        "confidence": "high",
+        "sourceSnippet": "Wired Optical Mouse (USB-A, 1000 DPI, 3 buttons): unit rate is USD 4.10. We have noted the 200-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Wired Optical Mouse (USB-A, 1000 DPI, 3 buttons): unit rate is USD 4.10. We have noted the 200-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 340.3,
+        "listUnitPriceINR": 340.3,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 4.1,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "4.1 USD x 83 INR/USD",
+            "input": 4.1,
+            "output": 340.29999999999995
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-002",
+      "rfxDescription": "Wireless Ergonomic Mouse",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "Wireless Ergonomic Mouse (Vertical grip, 2.4GHz + Bluetooth, 4000 DPI) - we quote $16.87 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Wireless Ergonomic Mouse (Vertical grip, 2.4GHz + Bluetooth, 4000 DPI) - we quote $16.87 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 16.87,
+        "confidence": "high",
+        "sourceSnippet": "Wireless Ergonomic Mouse (Vertical grip, 2.4GHz + Bluetooth, 4000 DPI) - we quote $16.87 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Wireless Ergonomic Mouse (Vertical grip, 2.4GHz + Bluetooth, 4000 DPI) - we quote $16.87 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1400.21,
+        "listUnitPriceINR": 1400.21,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 16.87,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "16.87 USD x 83 INR/USD",
+            "input": 16.87,
+            "output": 1400.21
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "MOU-003",
+      "rfxDescription": "Bluetooth Travel Mouse",
+      "rfxQuantity": 60,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 60,
+        "confidence": "high",
+        "sourceSnippet": "Bluetooth Travel Mouse (Compact, silent click, Bluetooth 5.0), our price is USD 15.06 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Bluetooth Travel Mouse (Compact, silent click, Bluetooth 5.0), our price is USD 15.06 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 15.06,
+        "confidence": "high",
+        "sourceSnippet": "Bluetooth Travel Mouse (Compact, silent click, Bluetooth 5.0), our price is USD 15.06 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Bluetooth Travel Mouse (Compact, silent click, Bluetooth 5.0), our price is USD 15.06 per unit; for your requirement of 60 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1249.98,
+        "listUnitPriceINR": 1249.98,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 15.06,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "15.06 USD x 83 INR/USD",
+            "input": 15.06,
+            "output": 1249.98
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-001",
+      "rfxDescription": "HDMI Cable 2m",
+      "rfxQuantity": 250,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 250,
+        "confidence": "high",
+        "sourceSnippet": "HDMI Cable 2m (HDMI 2.0, 4K60, gold-plated connectors), our price is USD 4.34 per unit; for your requirement of 250 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "HDMI Cable 2m (HDMI 2.0, 4K60, gold-plated connectors), our price is USD 4.34 per unit; for your requirement of 250 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 4.34,
+        "confidence": "high",
+        "sourceSnippet": "HDMI Cable 2m (HDMI 2.0, 4K60, gold-plated connectors), our price is USD 4.34 per unit; for your requirement of 250 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "HDMI Cable 2m (HDMI 2.0, 4K60, gold-plated connectors), our price is USD 4.34 per unit; for your requirement of 250 we are happy to hold that rate",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 360.22,
+        "listUnitPriceINR": 360.22,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 4.34,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "4.34 USD x 83 INR/USD",
+            "input": 4.34,
+            "output": 360.21999999999997
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-002",
+      "rfxDescription": "DisplayPort Cable 2m",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "The DisplayPort Cable 2m (DisplayPort 1.4, 8K30 / 4K144, latching connector) can be supplied at 7.35 US dollars each (quantity 150 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "each",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "The DisplayPort Cable 2m (DisplayPort 1.4, 8K30 / 4K144, latching connector) can be supplied at 7.35 US dollars each (quantity 150 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 7.35,
+        "confidence": "high",
+        "sourceSnippet": "The DisplayPort Cable 2m (DisplayPort 1.4, 8K30 / 4K144, latching connector) can be supplied at 7.35 US dollars each (quantity 150 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "The DisplayPort Cable 2m (DisplayPort 1.4, 8K30 / 4K144, latching connector) can be supplied at 7.35 US dollars each (quantity 150 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 610.05,
+        "listUnitPriceINR": 610.05,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 7.35,
+          "currency": "USD",
+          "basis": "each"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "7.35 USD x 83 INR/USD",
+            "input": 7.35,
+            "output": 610.05
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-003",
+      "rfxDescription": "USB-C to USB-C Cable 1m",
+      "rfxQuantity": 300,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 300,
+        "confidence": "high",
+        "sourceSnippet": "USB-C to USB-C Cable 1m (USB 3.2 Gen2, 100W PD, 10Gbps) comes to $6.39 per unit, which we can confirm for 300 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "USB-C to USB-C Cable 1m (USB 3.2 Gen2, 100W PD, 10Gbps) comes to $6.39 per unit, which we can confirm for 300 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 6.39,
+        "confidence": "high",
+        "sourceSnippet": "USB-C to USB-C Cable 1m (USB 3.2 Gen2, 100W PD, 10Gbps) comes to $6.39 per unit, which we can confirm for 300 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "USB-C to USB-C Cable 1m (USB 3.2 Gen2, 100W PD, 10Gbps) comes to $6.39 per unit, which we can confirm for 300 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 530.37,
+        "listUnitPriceINR": 530.37,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 6.39,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "6.39 USD x 83 INR/USD",
+            "input": 6.39,
+            "output": 530.37
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-004",
+      "rfxDescription": "Cat6 Patch Cable 3m",
+      "rfxQuantity": 400,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 400,
+        "confidence": "high",
+        "sourceSnippet": "The Cat6 Patch Cable 3m (UTP Cat6, snagless boot, 24AWG) can be supplied at 2.05 US dollars each (quantity 400 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "each",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "The Cat6 Patch Cable 3m (UTP Cat6, snagless boot, 24AWG) can be supplied at 2.05 US dollars each (quantity 400 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 2.05,
+        "confidence": "high",
+        "sourceSnippet": "The Cat6 Patch Cable 3m (UTP Cat6, snagless boot, 24AWG) can be supplied at 2.05 US dollars each (quantity 400 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "The Cat6 Patch Cable 3m (UTP Cat6, snagless boot, 24AWG) can be supplied at 2.05 US dollars each (quantity 400 as per your enquiry)",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 170.15,
+        "listUnitPriceINR": 170.15,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 2.05,
+          "currency": "USD",
+          "basis": "each"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "2.05 USD x 83 INR/USD",
+            "input": 2.05,
+            "output": 170.14999999999998
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "CAB-005",
+      "rfxDescription": "USB-C to HDMI Adapter",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "USB-C to HDMI Adapter (USB-C to HDMI 2.0, 4K60, aluminium shell): unit rate is USD 9.76. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "USB-C to HDMI Adapter (USB-C to HDMI 2.0, 4K60, aluminium shell): unit rate is USD 9.76. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 9.76,
+        "confidence": "high",
+        "sourceSnippet": "USB-C to HDMI Adapter (USB-C to HDMI 2.0, 4K60, aluminium shell): unit rate is USD 9.76. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "USB-C to HDMI Adapter (USB-C to HDMI 2.0, 4K60, aluminium shell): unit rate is USD 9.76. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 810.08,
+        "listUnitPriceINR": 810.08,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 9.76,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "9.76 USD x 83 INR/USD",
+            "input": 9.76,
+            "output": 810.0799999999999
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-001",
+      "rfxDescription": "Webcam 1080p",
+      "rfxQuantity": 100,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 100,
+        "confidence": "high",
+        "sourceSnippet": "Webcam 1080p (Full HD 1080p/30fps, autofocus, dual mic) - we quote $28.31 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Webcam 1080p (Full HD 1080p/30fps, autofocus, dual mic) - we quote $28.31 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 28.31,
+        "confidence": "high",
+        "sourceSnippet": "Webcam 1080p (Full HD 1080p/30fps, autofocus, dual mic) - we quote $28.31 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Webcam 1080p (Full HD 1080p/30fps, autofocus, dual mic) - we quote $28.31 a piece, and this covers the full 100 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2349.73,
+        "listUnitPriceINR": 2349.73,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 28.31,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "28.31 USD x 83 INR/USD",
+            "input": 28.31,
+            "output": 2349.73
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "WEB-002",
+      "rfxDescription": "4K Conference Webcam",
+      "rfxQuantity": 20,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 20,
+        "confidence": "high",
+        "sourceSnippet": "4K Conference Webcam (4K/30fps, 90-degree FOV, AI auto-framing) - we quote $133.73 a piece, and this covers the full 20 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "4K Conference Webcam (4K/30fps, 90-degree FOV, AI auto-framing) - we quote $133.73 a piece, and this covers the full 20 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 133.73,
+        "confidence": "high",
+        "sourceSnippet": "4K Conference Webcam (4K/30fps, 90-degree FOV, AI auto-framing) - we quote $133.73 a piece, and this covers the full 20 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "4K Conference Webcam (4K/30fps, 90-degree FOV, AI auto-framing) - we quote $133.73 a piece, and this covers the full 20 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 11099.59,
+        "listUnitPriceINR": 11099.59,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 133.73,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "133.73 USD x 83 INR/USD",
+            "input": 133.73,
+            "output": 11099.589999999998
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-001",
+      "rfxDescription": "USB Wired Headset with Mic",
+      "rfxQuantity": 150,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 150,
+        "confidence": "high",
+        "sourceSnippet": "USB Wired Headset with Mic (Over-ear, noise-cancelling boom mic, inline controls): unit rate is USD 22.89. We have noted the 150-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "USB Wired Headset with Mic (Over-ear, noise-cancelling boom mic, inline controls): unit rate is USD 22.89. We have noted the 150-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 22.89,
+        "confidence": "high",
+        "sourceSnippet": "USB Wired Headset with Mic (Over-ear, noise-cancelling boom mic, inline controls): unit rate is USD 22.89. We have noted the 150-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "USB Wired Headset with Mic (Over-ear, noise-cancelling boom mic, inline controls): unit rate is USD 22.89. We have noted the 150-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1899.87,
+        "listUnitPriceINR": 1899.87,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 22.89,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "22.89 USD x 83 INR/USD",
+            "input": 22.89,
+            "output": 1899.8700000000001
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "HDS-002",
+      "rfxDescription": "Wireless ANC Headset",
+      "rfxQuantity": 40,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 40,
+        "confidence": "high",
+        "sourceSnippet": "Wireless ANC Headset (Bluetooth 5.2, active noise cancelling, 30h battery) comes to $102.41 per unit, which we can confirm for 40 pieces",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "per unit",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Wireless ANC Headset (Bluetooth 5.2, active noise cancelling, 30h battery) comes to $102.41 per unit, which we can confirm for 40 pieces",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 102.41,
+        "confidence": "high",
+        "sourceSnippet": "Wireless ANC Headset (Bluetooth 5.2, active noise cancelling, 30h battery) comes to $102.41 per unit, which we can confirm for 40 pieces",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Wireless ANC Headset (Bluetooth 5.2, active noise cancelling, 30h battery) comes to $102.41 per unit, which we can confirm for 40 pieces",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 8500.03,
+        "listUnitPriceINR": 8500.03,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 102.41,
+          "currency": "USD",
+          "basis": "per unit"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "102.41 USD x 83 INR/USD",
+            "input": 102.41,
+            "output": 8500.029999999999
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "BAG-001",
+      "rfxDescription": "Laptop Backpack 15.6\"",
+      "rfxQuantity": 120,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 120,
+        "confidence": "high",
+        "sourceSnippet": "Laptop Backpack 15.6 inch (Water-resistant, padded laptop compartment, anti-theft pocket): unit rate is USD 16.87. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Laptop Backpack 15.6 inch (Water-resistant, padded laptop compartment, anti-theft pocket): unit rate is USD 16.87. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 16.87,
+        "confidence": "high",
+        "sourceSnippet": "Laptop Backpack 15.6 inch (Water-resistant, padded laptop compartment, anti-theft pocket): unit rate is USD 16.87. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Laptop Backpack 15.6 inch (Water-resistant, padded laptop compartment, anti-theft pocket): unit rate is USD 16.87. We have noted the 120-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1400.21,
+        "listUnitPriceINR": 1400.21,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 16.87,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "16.87 USD x 83 INR/USD",
+            "input": 16.87,
+            "output": 1400.21
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "PWR-001",
+      "rfxDescription": "Universal 65W USB-C Charger",
+      "rfxQuantity": 80,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 80,
+        "confidence": "high",
+        "sourceSnippet": "Universal 65W USB-C Charger (GaN, 65W PD 3.0, foldable pins) - we quote $24.10 a piece, and this covers the full 80 units",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "a piece",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Universal 65W USB-C Charger (GaN, 65W PD 3.0, foldable pins) - we quote $24.10 a piece, and this covers the full 80 units",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 24.1,
+        "confidence": "high",
+        "sourceSnippet": "Universal 65W USB-C Charger (GaN, 65W PD 3.0, foldable pins) - we quote $24.10 a piece, and this covers the full 80 units",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Universal 65W USB-C Charger (GaN, 65W PD 3.0, foldable pins) - we quote $24.10 a piece, and this covers the full 80 units",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 2000.3,
+        "listUnitPriceINR": 2000.3,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 24.1,
+          "currency": "USD",
+          "basis": "a piece"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "24.1 USD x 83 INR/USD",
+            "input": 24.1,
+            "output": 2000.3000000000002
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    },
+    {
+      "itemCode": "STN-001",
+      "rfxDescription": "Aluminium Laptop Stand",
+      "rfxQuantity": 90,
+      "rfxUnit": "Nos",
+      "status": "quoted",
+      "quantity": {
+        "value": 90,
+        "confidence": "high",
+        "sourceSnippet": "Aluminium Laptop Stand (Adjustable height/angle, foldable, fits 11-17 inch laptops): unit rate is USD 15.66. We have noted the 90-unit requirement",
+        "snippetVerified": true
+      },
+      "unit": {
+        "value": "unit rate",
+        "unitsPerPricedUnit": 1,
+        "confidence": "high",
+        "sourceSnippet": "Aluminium Laptop Stand (Adjustable height/angle, foldable, fits 11-17 inch laptops): unit rate is USD 15.66. We have noted the 90-unit requirement",
+        "snippetVerified": true
+      },
+      "unitPrice": {
+        "value": 15.66,
+        "confidence": "high",
+        "sourceSnippet": "Aluminium Laptop Stand (Adjustable height/angle, foldable, fits 11-17 inch laptops): unit rate is USD 15.66. We have noted the 90-unit requirement",
+        "snippetVerified": true
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": "high",
+        "sourceSnippet": "Aluminium Laptop Stand (Adjustable height/angle, foldable, fits 11-17 inch laptops): unit rate is USD 15.66. We have noted the 90-unit requirement",
+        "snippetVerified": true
+      },
+      "notes": [],
+      "flags": [
+        {
+          "type": "currency_mismatch",
+          "reason": "Price quoted in USD, not INR.",
+          "source": "model"
+        }
+      ],
+      "normalized": {
+        "unitPriceINR": 1299.78,
+        "listUnitPriceINR": 1299.78,
+        "currency": "INR",
+        "basis": "per_unit",
+        "original": {
+          "amount": 15.66,
+          "currency": "USD",
+          "basis": "unit rate"
+        },
+        "packSize": {
+          "value": 1,
+          "assumed": false
+        },
+        "fxRate": {
+          "value": 83,
+          "from": "USD",
+          "source": "config"
+        },
+        "discountPercent": 0,
+        "steps": [
+          {
+            "step": "currency",
+            "description": "15.66 USD x 83 INR/USD",
+            "input": 15.66,
+            "output": 1299.78
+          }
+        ],
+        "assumptions": [
+          "Assumed exchange rate 1 USD = 83 INR (configured assumption, not a market rate)."
+        ]
+      }
+    }
+  ]
+}
